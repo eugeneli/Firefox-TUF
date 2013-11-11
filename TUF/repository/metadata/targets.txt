@@ -1,0 +1,22 @@
+{
+ "signatures": [
+  {
+   "keyid": "5adb7b38ac0da25de8db2b44d8d3c6541692a6bbb00b64f491dac9f703cd255a", 
+   "method": "PyCrypto-PKCS#1 PSS", 
+   "sig": "9b466823486709d76a47db41d50e9b278d32fe97ed7f572efd4ae098af394f5fd95198f46d9f24e984978cc362659975f8eab11462f16571e1641cdcd07f821aec3cc182646c1f3b62e72e6aa8f22a62d8813cd5db26279382ef537597d3a64cc095358e525bae745fa5f926147c6413f9eed417a8bc893032824e68841a2418b0d02320240ff6f8f504a1bdc2b5960f5fc177f882a10ba2de9e9c086dc43e970b17c8f9ad18a46777c0d0cd2647c442f70a2f52b31da550125648badcad8ce25e2e900a704c750b14f2aa74945e5f2acf92e0c184da8b60caa3a004dad846b30ba44deadbe23f20fefc8c4709a7b618b136daef0b2ce3a54fa1a98082576075"
+  }
+ ], 
+ "signed": {
+  "_type": "Targets", 
+  "expires": "2013-12-24 11:50:50 UTC", 
+  "targets": {
+   "firefox-24.0-25.0.partial.mar": {
+    "hashes": {
+     "sha256": "5615212e25037be0f4a7a3a1229ae94749964426ee4d0c6b25d1a3ecfa3557fc"
+    }, 
+    "length": 12524778
+   }
+  }, 
+  "version": 1
+ }
+}

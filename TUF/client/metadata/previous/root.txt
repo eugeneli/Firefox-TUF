@@ -1,0 +1,49 @@
+{
+ "signatures": [
+  {
+   "keyid": "5adb7b38ac0da25de8db2b44d8d3c6541692a6bbb00b64f491dac9f703cd255a", 
+   "method": "PyCrypto-PKCS#1 PSS", 
+   "sig": "ac28153d52c0162effd1fe8391221f1e07b4a5c8166da03d89d09d4341d24a58909483bad9d6dc57392933407ed5beec7227961a18a4a17d3b399a495b0d8668bd5e995d691b31fe3b87f7a10ffa93a3a8e5dd35b1d60b1718d9d3e5645d3acf077fbaa1acd181b06c4c416f21d1fd13610b80a8e3623906afd6d95f26c0f8a05fe18affe3cc27ddeee95ddbe2bf4fba6b6af30fbeb134334f39afbc50bae8f87122732aee17dc622753985e33a5946699d335d5c59605a2c8658ee156fb7a6aaaec326c1deb18eedc09752980d7c63329fdb3d717bc960fbcfeb38f3ba4f1bd8e6e87f97bd1c88e340917c6b12d646b474f775d3815d41afbe7c1d5cd522085"
+  }
+ ], 
+ "signed": {
+  "_type": "Root", 
+  "expires": "2013-12-11 02:14:26 UTC", 
+  "keys": {
+   "5adb7b38ac0da25de8db2b44d8d3c6541692a6bbb00b64f491dac9f703cd255a": {
+    "keytype": "rsa", 
+    "keyval": {
+     "private": "", 
+     "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtqgll285j17Glg0Is6gY\npYZGXIA4sxNulibyE5sXr3bZMfn5daDmABeIiTYEdZtXu0YXLsAovTVaaynX4r9+\nHTkPvu0XBx+0cw86XBKiRqi3naaoR4WdQUNrOi6TYi1el1DlUSUa0G33NiegJxUC\nX3bbUhLrUrE+4P4xX+CUxWy0TAmmC1YkGQDcpytTTJ1PNqoQePWItp6rjbSq5F+h\nmqMEq+5k4ek/z3upusRq9Kg4UxMngoZOP3w4cHAk7LX2FHh3ISdBEmfXav2+Ncew\nf56hgoLAVk/xuBMmTBfJN6DjCUCbvZf6ROfIoqrOWiPFlKIMQ1BM1ufHKcMPb96y\n1QIDAQAB\n-----END PUBLIC KEY-----"
+    }
+   }
+  }, 
+  "roles": {
+   "release": {
+    "keyids": [
+     "5adb7b38ac0da25de8db2b44d8d3c6541692a6bbb00b64f491dac9f703cd255a"
+    ], 
+    "threshold": 1
+   }, 
+   "root": {
+    "keyids": [
+     "5adb7b38ac0da25de8db2b44d8d3c6541692a6bbb00b64f491dac9f703cd255a"
+    ], 
+    "threshold": 1
+   }, 
+   "targets": {
+    "keyids": [
+     "5adb7b38ac0da25de8db2b44d8d3c6541692a6bbb00b64f491dac9f703cd255a"
+    ], 
+    "threshold": 1
+   }, 
+   "timestamp": {
+    "keyids": [
+     "5adb7b38ac0da25de8db2b44d8d3c6541692a6bbb00b64f491dac9f703cd255a"
+    ], 
+    "threshold": 1
+   }
+  }, 
+  "version": 1
+ }
+}
