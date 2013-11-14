@@ -1,0 +1,5 @@
+[2013-11-13 06:21:43,920 UTC] [tuf.interposition] [ERROR][exception:33@utility.py] Invalid configuration in tuf.interposition.json!
+Traceback (most recent call last):
+  File "/home/dpm320/virtualpython/local/lib/python2.7/site-packages/tuf/interposition/__init__.py", line 191, in __read_configuration
+    with open(filename) as tuf_interposition_json:
+IOError: [Errno 2] No such file or directory: 'tuf.interposition.json'
