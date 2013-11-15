@@ -1,0 +1,6 @@
+[2013-11-15 04:50:08,861 UTC] [tuf.download] [INFO][download_url_to_tempfileobj:362@download.py] Downloading: http://127.0.0.1:8001/metadata/timestamp.txt
+[2013-11-15 04:50:08,864 UTC] [tuf.client.updater] [WARNING][_update_metadata:694@updater.py] Bad signature on http://127.0.0.1:8001/metadata/timestamp.txt.
+[2013-11-15 04:50:08,864 UTC] [tuf.client.updater] [ERROR][_update_metadata:702@updater.py] Unable to update 'timestamp.txt'.
+[2013-11-15 04:51:15,267 UTC] [tuf.download] [INFO][download_url_to_tempfileobj:362@download.py] Downloading: http://127.0.0.1:8001/metadata/timestamp.txt
+[2013-11-15 04:51:15,274 UTC] [tuf.client.updater] [WARNING][_update_metadata:694@updater.py] Bad signature on http://127.0.0.1:8001/metadata/timestamp.txt.
+[2013-11-15 04:51:15,274 UTC] [tuf.client.updater] [ERROR][_update_metadata:702@updater.py] Unable to update 'timestamp.txt'.
