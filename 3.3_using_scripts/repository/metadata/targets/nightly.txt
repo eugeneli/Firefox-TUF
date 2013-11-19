@@ -1,0 +1,32 @@
+{
+ "signatures": [
+  {
+   "keyid": "4069d32d4dbcffc56625f1953250aceb9a266462a9b883e623b5ea17f34741f2", 
+   "method": "PyCrypto-PKCS#1 PSS", 
+   "sig": "9700c9981cdbb83813761d318074886f7295d8faf0d861a16e8bba185c915bc9f2c442c076d66ebaf2330fdb046e4f541ce42ed9f788348b71fbce0737ab74bbe5a9845fda808fd6d1bc845e2f5dcb2de3d4397b87cf5cc9f9fbc37330c3871e1f8a5765aab5dbc23e68b7208a80896245bb1f0325d0b8933fc5f0bbb855c2dfd44660a8e8b6c2a01dd897b55408e488a979fb6a238f0c1bc427140f8f5a54e1b257a60a8e3eaeb33efdd046578fa5565b7caa47fbd0464830c782a7339ab0338be51f63a27ca5b77a6822d4b005310f6a5aac6b7f27c1806fbf942ddaedddd32bd34cbfb19130d774e33853f0d7b280341a1c78d87880aacabe819b9a6680a9"
+  }
+ ], 
+ "signed": {
+  "_type": "Targets", 
+  "delegations": {
+   "keys": {}, 
+   "roles": []
+  }, 
+  "expires": "2014-02-18 14:17:37 UTC", 
+  "targets": {
+   "updatexmls/aurora/update.xml": {
+    "hashes": {
+     "sha256": "3b2042545db7f4e025a17304e6c0fba25bada55a01f619b46e2e08a196d17640"
+    }, 
+    "length": 555
+   }, 
+   "updatexmls/nightly/update.xml": {
+    "hashes": {
+     "sha256": "baa9f882cc78f1d2e2b5c002efada72a2c184557934512a97fd0d64e209eefa6"
+    }, 
+    "length": 530
+   }
+  }, 
+  "version": 1
+ }
+}

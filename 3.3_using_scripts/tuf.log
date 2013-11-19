@@ -1,67 +1,45 @@
-[2013-11-15 04:43:08,127 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt)
-[2013-11-15 04:43:08,132 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/targets.txt)
-[2013-11-15 04:43:08,132 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/release.txt)
-[2013-11-15 04:43:08,133 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/timestamp.txt)
-[2013-11-15 04:43:22,367 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt' with 42c4d228c8a01a2d29803f0529004e5b9c8b5da07cb273ab052d536b6bd8f24e
-[2013-11-15 04:43:22,392 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt' with 34a6b8a4a655a123adf8d3aeca9a097bebc1aa6ef32a36c4ab57ecb7a75c8223
-[2013-11-15 04:43:22,504 UTC] [tuf.libtuf] [INFO][write_metadata_file:2675@libtuf.py] No compression for /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt
-[2013-11-15 04:43:22,504 UTC] [tuf.libtuf] [INFO][write_metadata_file:2688@libtuf.py] Writing to /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt
-[2013-11-15 04:43:23,492 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/targets.txt' with cab7958fdf1bc0d87b96ec8cd2164bc654ee493b6b4f0d8ea8b4e24c01db22f3
-[2013-11-15 04:43:23,552 UTC] [tuf.libtuf] [INFO][write_metadata_file:2675@libtuf.py] No compression for /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/targets.txt
-[2013-11-15 04:43:23,553 UTC] [tuf.libtuf] [INFO][write_metadata_file:2688@libtuf.py] Writing to /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/targets.txt
-[2013-11-15 04:43:23,555 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/release.txt' with c5d63a33ce704547c99f5b6edc27b4d6067690d0d5214bea0b34b8156cb38613
-[2013-11-15 04:43:23,618 UTC] [tuf.libtuf] [INFO][write_metadata_file:2675@libtuf.py] No compression for /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/release.txt
-[2013-11-15 04:43:23,618 UTC] [tuf.libtuf] [INFO][write_metadata_file:2688@libtuf.py] Writing to /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/release.txt
-[2013-11-15 04:43:23,619 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/timestamp.txt' with ff85c863ef81b79f85fb6b2588aceb203f6985ea0d43f2156e870cf0227f27e4
-[2013-11-15 04:43:23,683 UTC] [tuf.libtuf] [INFO][write_metadata_file:2675@libtuf.py] No compression for /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/timestamp.txt
-[2013-11-15 04:43:23,684 UTC] [tuf.libtuf] [INFO][write_metadata_file:2688@libtuf.py] Writing to /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/timestamp.txt
-[2013-11-15 04:43:42,517 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt)
-[2013-11-15 04:43:42,522 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/targets.txt)
-[2013-11-15 04:43:42,522 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/release.txt)
-[2013-11-15 04:43:42,523 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/timestamp.txt)
-[2013-11-15 04:43:52,088 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt' with 42c4d228c8a01a2d29803f0529004e5b9c8b5da07cb273ab052d536b6bd8f24e
-[2013-11-15 04:43:52,110 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt' with 34a6b8a4a655a123adf8d3aeca9a097bebc1aa6ef32a36c4ab57ecb7a75c8223
-[2013-11-15 04:43:52,213 UTC] [tuf.libtuf] [INFO][write_metadata_file:2675@libtuf.py] No compression for /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt
-[2013-11-15 04:43:52,214 UTC] [tuf.libtuf] [INFO][write_metadata_file:2688@libtuf.py] Writing to /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt
-[2013-11-15 04:43:53,114 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/targets.txt' with cab7958fdf1bc0d87b96ec8cd2164bc654ee493b6b4f0d8ea8b4e24c01db22f3
-[2013-11-15 04:43:53,173 UTC] [tuf.libtuf] [INFO][write_metadata_file:2675@libtuf.py] No compression for /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/targets.txt
-[2013-11-15 04:43:53,174 UTC] [tuf.libtuf] [INFO][write_metadata_file:2688@libtuf.py] Writing to /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/targets.txt
-[2013-11-15 04:43:53,175 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/release.txt' with c5d63a33ce704547c99f5b6edc27b4d6067690d0d5214bea0b34b8156cb38613
-[2013-11-15 04:43:53,227 UTC] [tuf.libtuf] [INFO][write_metadata_file:2675@libtuf.py] No compression for /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/release.txt
-[2013-11-15 04:43:53,227 UTC] [tuf.libtuf] [INFO][write_metadata_file:2688@libtuf.py] Writing to /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/release.txt
-[2013-11-15 04:43:53,228 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/timestamp.txt' with ff85c863ef81b79f85fb6b2588aceb203f6985ea0d43f2156e870cf0227f27e4
-[2013-11-15 04:43:53,285 UTC] [tuf.libtuf] [INFO][write_metadata_file:2675@libtuf.py] No compression for /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/timestamp.txt
-[2013-11-15 04:43:53,285 UTC] [tuf.libtuf] [INFO][write_metadata_file:2688@libtuf.py] Writing to /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/timestamp.txt
-[2013-11-15 04:45:02,239 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt)
-[2013-11-15 04:45:02,241 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/targets.txt)
-[2013-11-15 04:45:02,242 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/release.txt)
-[2013-11-15 04:45:02,242 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/timestamp.txt)
-[2013-11-15 04:45:11,499 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt' with 42c4d228c8a01a2d29803f0529004e5b9c8b5da07cb273ab052d536b6bd8f24e
-[2013-11-15 04:45:11,531 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt' with 34a6b8a4a655a123adf8d3aeca9a097bebc1aa6ef32a36c4ab57ecb7a75c8223
-[2013-11-15 04:45:11,645 UTC] [tuf.libtuf] [INFO][write_metadata_file:2675@libtuf.py] No compression for /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt
-[2013-11-15 04:45:11,645 UTC] [tuf.libtuf] [INFO][write_metadata_file:2688@libtuf.py] Writing to /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt
-[2013-11-15 04:46:17,975 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt)
-[2013-11-15 04:46:17,978 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/targets.txt)
-[2013-11-15 04:46:17,979 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/release.txt)
-[2013-11-15 04:46:17,979 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/timestamp.txt)
-[2013-11-15 04:46:34,573 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt' with 42c4d228c8a01a2d29803f0529004e5b9c8b5da07cb273ab052d536b6bd8f24e
-[2013-11-15 04:46:34,590 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt' with 34a6b8a4a655a123adf8d3aeca9a097bebc1aa6ef32a36c4ab57ecb7a75c8223
-[2013-11-15 04:46:34,726 UTC] [tuf.libtuf] [INFO][write_metadata_file:2675@libtuf.py] No compression for /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt
-[2013-11-15 04:46:34,726 UTC] [tuf.libtuf] [INFO][write_metadata_file:2688@libtuf.py] Writing to /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt
-[2013-11-15 04:47:16,582 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt)
-[2013-11-15 04:47:16,586 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/targets.txt)
-[2013-11-15 04:47:16,587 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/release.txt)
-[2013-11-15 04:47:16,588 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/timestamp.txt)
-[2013-11-15 04:47:28,939 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt' with 42c4d228c8a01a2d29803f0529004e5b9c8b5da07cb273ab052d536b6bd8f24e
-[2013-11-15 04:47:28,965 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt' with 34a6b8a4a655a123adf8d3aeca9a097bebc1aa6ef32a36c4ab57ecb7a75c8223
-[2013-11-15 04:47:29,115 UTC] [tuf.libtuf] [INFO][write_metadata_file:2675@libtuf.py] No compression for /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt
-[2013-11-15 04:47:29,116 UTC] [tuf.libtuf] [INFO][write_metadata_file:2688@libtuf.py] Writing to /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/root.txt
-[2013-11-15 04:47:30,043 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/targets.txt' with cab7958fdf1bc0d87b96ec8cd2164bc654ee493b6b4f0d8ea8b4e24c01db22f3
-[2013-11-15 04:47:30,103 UTC] [tuf.libtuf] [INFO][write_metadata_file:2675@libtuf.py] No compression for /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/targets.txt
-[2013-11-15 04:47:30,104 UTC] [tuf.libtuf] [INFO][write_metadata_file:2688@libtuf.py] Writing to /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/targets.txt
-[2013-11-15 04:47:30,105 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/release.txt' with c5d63a33ce704547c99f5b6edc27b4d6067690d0d5214bea0b34b8156cb38613
-[2013-11-15 04:47:30,157 UTC] [tuf.libtuf] [INFO][write_metadata_file:2675@libtuf.py] No compression for /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/release.txt
-[2013-11-15 04:47:30,157 UTC] [tuf.libtuf] [INFO][write_metadata_file:2688@libtuf.py] Writing to /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/release.txt
-[2013-11-15 04:47:30,158 UTC] [tuf.libtuf] [INFO][sign_metadata:2595@libtuf.py] Signing '/home/eugene/assignment3.3/tufstuff/repository/metadata.staged/timestamp.txt' with ff85c863ef81b79f85fb6b2588aceb203f6985ea0d43f2156e870cf0227f27e4
-[2013-11-15 04:47:30,215 UTC] [tuf.libtuf] [INFO][write_metadata_file:2675@libtuf.py] No compression for /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/timestamp.txt
-[2013-11-15 04:47:30,216 UTC] [tuf.libtuf] [INFO][write_metadata_file:2688@libtuf.py] Writing to /home/eugene/assignment3.3/tufstuff/repository/metadata.staged/timestamp.txt
+[2013-11-19 06:49:36,228 UTC] [tuf.libtuf] [INFO][create_new_repository:1757@libtuf.py] Creating '/home/eugene/assignment3.3/newtuf/repository/metadata.staged'
+[2013-11-19 06:49:36,229 UTC] [tuf.libtuf] [INFO][create_new_repository:1768@libtuf.py] Creating '/home/eugene/assignment3.3/newtuf/repository/targets'
+[2013-11-19 06:49:41,143 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/tmp/tmpJuboFv/metadata.staged/root.txt' with ccf11c92ea79b6c0e3d4e73e43bb358318c04222717d1ef6c87ebbe58019df16
+[2013-11-19 06:49:41,172 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/tmp/tmpJuboFv/metadata.staged/root.txt' with 793e0fa44f0618fab08634c7f25e009416d520cbfed719c9411bf97658bde751
+[2013-11-19 06:49:41,223 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /tmp/tmpJuboFv/metadata.staged/root.txt
+[2013-11-19 06:49:41,223 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /tmp/tmpJuboFv/metadata.staged/root.txt
+[2013-11-19 06:50:07,492 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/eugene/assignment3.3/newtuf/repository/metadata.staged/root.txt' with ccf11c92ea79b6c0e3d4e73e43bb358318c04222717d1ef6c87ebbe58019df16
+[2013-11-19 06:50:07,513 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/eugene/assignment3.3/newtuf/repository/metadata.staged/root.txt' with 793e0fa44f0618fab08634c7f25e009416d520cbfed719c9411bf97658bde751
+[2013-11-19 06:50:07,564 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/eugene/assignment3.3/newtuf/repository/metadata.staged/root.txt
+[2013-11-19 06:50:07,564 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/eugene/assignment3.3/newtuf/repository/metadata.staged/root.txt
+[2013-11-19 06:50:07,565 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/eugene/assignment3.3/newtuf/repository/metadata.staged/targets.txt' with 1c3eb24b2da71c0060e83f1d04ac53bb49359bcf0955940021ddce91871abd36
+[2013-11-19 06:50:07,610 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/eugene/assignment3.3/newtuf/repository/metadata.staged/targets.txt
+[2013-11-19 06:50:07,610 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/eugene/assignment3.3/newtuf/repository/metadata.staged/targets.txt
+[2013-11-19 06:50:07,611 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/eugene/assignment3.3/newtuf/repository/metadata.staged/release.txt' with 4605cfd5e6c9905d9fea8a34b4f58a869eee7c5675f9158372a6cb98109b1cf1
+[2013-11-19 06:50:07,653 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/eugene/assignment3.3/newtuf/repository/metadata.staged/release.txt
+[2013-11-19 06:50:07,653 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/eugene/assignment3.3/newtuf/repository/metadata.staged/release.txt
+[2013-11-19 06:50:07,654 UTC] [tuf.libtuf] [WARNING][generate_timestamp_metadata:2599@libtuf.py] Could not get fileinfo about /home/eugene/assignment3.3/newtuf/repository/metadata.staged/release.txt.
+[2013-11-19 06:50:07,654 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/eugene/assignment3.3/newtuf/repository/metadata.staged/timestamp.txt' with 768591f893e99529d2ea7148e8e1feb0e96d1af90f396bcdd8980e5e97ab2b98
+[2013-11-19 06:50:07,697 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/eugene/assignment3.3/newtuf/repository/metadata.staged/timestamp.txt
+[2013-11-19 06:50:07,697 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/eugene/assignment3.3/newtuf/repository/metadata.staged/timestamp.txt
+[2013-11-19 06:50:15,501 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/newtuf/repository/metadata.staged/root.txt)
+[2013-11-19 06:50:15,505 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/newtuf/repository/metadata.staged/targets.txt)
+[2013-11-19 06:50:15,505 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/newtuf/repository/metadata.staged/release.txt)
+[2013-11-19 06:50:15,506 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/newtuf/repository/metadata.staged/timestamp.txt)
+[2013-11-19 06:50:26,484 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/newtuf/repository/metadata.staged/root.txt)
+[2013-11-19 06:50:26,487 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/newtuf/repository/metadata.staged/targets.txt)
+[2013-11-19 06:50:26,488 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/newtuf/repository/metadata.staged/release.txt)
+[2013-11-19 06:50:26,489 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/eugene/assignment3.3/newtuf/repository/metadata.staged/timestamp.txt)
+[2013-11-19 06:50:42,735 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/eugene/assignment3.3/newtuf/repository/metadata.staged/targets/nightly.txt' with 4069d32d4dbcffc56625f1953250aceb9a266462a9b883e623b5ea17f34741f2
+[2013-11-19 06:50:42,771 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/eugene/assignment3.3/newtuf/repository/metadata.staged/targets/nightly.txt
+[2013-11-19 06:50:42,771 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/eugene/assignment3.3/newtuf/repository/metadata.staged/targets/nightly.txt
+[2013-11-19 06:50:42,772 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/eugene/assignment3.3/newtuf/repository/metadata.staged/root.txt' with ccf11c92ea79b6c0e3d4e73e43bb358318c04222717d1ef6c87ebbe58019df16
+[2013-11-19 06:50:42,787 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/eugene/assignment3.3/newtuf/repository/metadata.staged/root.txt' with 793e0fa44f0618fab08634c7f25e009416d520cbfed719c9411bf97658bde751
+[2013-11-19 06:50:42,856 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/eugene/assignment3.3/newtuf/repository/metadata.staged/root.txt
+[2013-11-19 06:50:42,856 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/eugene/assignment3.3/newtuf/repository/metadata.staged/root.txt
+[2013-11-19 06:50:43,988 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/eugene/assignment3.3/newtuf/repository/metadata.staged/targets.txt' with 1c3eb24b2da71c0060e83f1d04ac53bb49359bcf0955940021ddce91871abd36
+[2013-11-19 06:50:44,045 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/eugene/assignment3.3/newtuf/repository/metadata.staged/targets.txt
+[2013-11-19 06:50:44,046 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/eugene/assignment3.3/newtuf/repository/metadata.staged/targets.txt
+[2013-11-19 06:50:44,047 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/eugene/assignment3.3/newtuf/repository/metadata.staged/release.txt' with 4605cfd5e6c9905d9fea8a34b4f58a869eee7c5675f9158372a6cb98109b1cf1
+[2013-11-19 06:50:44,098 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/eugene/assignment3.3/newtuf/repository/metadata.staged/release.txt
+[2013-11-19 06:50:44,098 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/eugene/assignment3.3/newtuf/repository/metadata.staged/release.txt
+[2013-11-19 06:50:44,099 UTC] [tuf.libtuf] [WARNING][generate_timestamp_metadata:2599@libtuf.py] Could not get fileinfo about /home/eugene/assignment3.3/newtuf/repository/metadata.staged/release.txt.
+[2013-11-19 06:50:44,099 UTC] [tuf.libtuf] [INFO][sign_metadata:2664@libtuf.py] Signing '/home/eugene/assignment3.3/newtuf/repository/metadata.staged/timestamp.txt' with 768591f893e99529d2ea7148e8e1feb0e96d1af90f396bcdd8980e5e97ab2b98
+[2013-11-19 06:50:44,152 UTC] [tuf.libtuf] [INFO][write_metadata_file:2745@libtuf.py] No compression for /home/eugene/assignment3.3/newtuf/repository/metadata.staged/timestamp.txt
+[2013-11-19 06:50:44,153 UTC] [tuf.libtuf] [INFO][write_metadata_file:2758@libtuf.py] Writing to /home/eugene/assignment3.3/newtuf/repository/metadata.staged/timestamp.txt
