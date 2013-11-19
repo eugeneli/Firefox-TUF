@@ -1,0 +1,34 @@
+{
+ "signatures": [
+  {
+   "keyid": "a12fa3db3d59fd8a116a5fc1a1e08dce50e47719e944e351c0ab5fde676cbb62", 
+   "method": "PyCrypto-PKCS#1 PSS", 
+   "sig": "69e784b9210170fd2e0fe0bde37d688534ae0a0bea35f9ebf1ead4040be5021f93ed09687102a4358c780ae605e78f6f56e0cf53e0208c44fd80e2a6a2a4f2d83358613f47f5922f48a18cc7a567c1f2a546af2342a4cf0c6f8b295bd3e5091a99e92c382b8e8e06c30ede34d58987136ea552523039cae5dd33eee0d7d68c8b89cc14127d81f212c1f28e0e4031d28d6b253f523a9753a763e7310f99bc9b8e0822d174e38230659f2e2b10b484d6c075142ed8004173b9cb368396ba7b687a78d499157cd3835a88f3f388c7b935735a42dbbb3ff42371ce365359d4023b38c86f432a21ce70b75c59cee6d6b39228b32f1a9607d40515e21aacdd9e08624a118c7d382490cc33d247d5c028ddc597d403c9663c1b46f919af387469b93dd05dcf4ae470bcefe5a14171718a8120a2c1d1181a1035e9bec90366b3da2a8f9a9be2ee969d6369ef9fb53463be993a1dbc90c2de3003e105bde1ee654000fffc56c04e9f6dd1c602bddca5c39a04fc765bcbcd3707b435e78b0a6eca94095e58"
+  }
+ ], 
+ "signed": {
+  "_type": "Release", 
+  "expires": "2013-11-26 03:04:28 UTC", 
+  "meta": {
+   "root.txt": {
+    "hashes": {
+     "sha256": "135b4b9dfb6f094aa6d01784846784fdaaa12fab4e7783e7111e880b4bb565a5"
+    }, 
+    "length": 7016
+   }, 
+   "targets.txt": {
+    "hashes": {
+     "sha256": "574976e0313fd714103915639f152bb572bf9820317d8abc193d29f528c14efe"
+    }, 
+    "length": 1102
+   }, 
+   "targets.txt.gz": {
+    "hashes": {
+     "sha256": "00f00c48a690ebb17802676e5590ac391b7e062c99383b7944eaf0de9f6d5bcb"
+    }, 
+    "length": 755
+   }
+  }, 
+  "version": 1
+ }
+}
