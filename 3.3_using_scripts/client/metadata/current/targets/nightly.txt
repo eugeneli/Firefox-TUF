@@ -1,9 +1,9 @@
 {
  "signatures": [
   {
-   "keyid": "4069d32d4dbcffc56625f1953250aceb9a266462a9b883e623b5ea17f34741f2", 
+   "keyid": "fc039fe7cdefda289f1b0abdef781c721400aa5595e3e7d852d85318f3f1f16e", 
    "method": "PyCrypto-PKCS#1 PSS", 
-   "sig": "9700c9981cdbb83813761d318074886f7295d8faf0d861a16e8bba185c915bc9f2c442c076d66ebaf2330fdb046e4f541ce42ed9f788348b71fbce0737ab74bbe5a9845fda808fd6d1bc845e2f5dcb2de3d4397b87cf5cc9f9fbc37330c3871e1f8a5765aab5dbc23e68b7208a80896245bb1f0325d0b8933fc5f0bbb855c2dfd44660a8e8b6c2a01dd897b55408e488a979fb6a238f0c1bc427140f8f5a54e1b257a60a8e3eaeb33efdd046578fa5565b7caa47fbd0464830c782a7339ab0338be51f63a27ca5b77a6822d4b005310f6a5aac6b7f27c1806fbf942ddaedddd32bd34cbfb19130d774e33853f0d7b280341a1c78d87880aacabe819b9a6680a9"
+   "sig": "6be9523fd1dec55028a362a4e50b202f564337e14fc316cf72386e18d948bc519a0c07750e1498a4eb2d419e703936d18ab368840709f883080faeaa9d3f4fd4da3fb448dc02af5186ea9fc3f20c0a397c4605d9f0bcb662632638aae79a1ffe6a2cbd5cd107b155c577ae41f84613ef2248749660b9306b0b31bf48f5c4ddc6fed57c496ca895f419a1acd9618c4ebdccf56f4544d861aa489fcb2ae19e01b738de8328dc21c7fe29e79ef23de554f5f29158079a4505f7967c3cbe4b99ce3bc3a69a727d1dbb47e70c44059d5598577b55b404d48fdef793f283a4c96ea897d90c751ce64f0036faaf51b791347f3023996541b9fffba85ca289c773252beb"
   }
  ], 
  "signed": {
@@ -12,8 +12,32 @@
    "keys": {}, 
    "roles": []
   }, 
-  "expires": "2014-02-18 14:17:37 UTC", 
+  "expires": "2014-02-19 13:23:59 UTC", 
   "targets": {
+   "pub/mozilla.org/firefox/nightly/2013/11/2013-11-18-00-40-01-mozilla-aurora/firefox-27.0a2.en-US.linux-i686.complete.mar": {
+    "hashes": {
+     "sha256": "6f1585d1e7d581ab443373e9f56e5dab422f0f14c2bfe0cff991e38a0cb8b4cc"
+    }, 
+    "length": 35191886
+   }, 
+   "pub/mozilla.org/firefox/nightly/2013/11/2013-11-18-00-40-01-mozilla-aurora/firefox-27.0a2.en-US.linux-i686.partial.20131117004001-20131118004001.mar": {
+    "hashes": {
+     "sha256": "5bf80d54c1d2028646c9ee2d505dcddb514d0a2c51961b9ecea5af29f33d3697"
+    }, 
+    "length": 4151030
+   }, 
+   "pub/mozilla.org/firefox/nightly/2013/11/2013-11-18-09-41-34-mozilla-central/firefox-28.0a1.en-US.linux-i686.complete.mar": {
+    "hashes": {
+     "sha256": "8cc9bbfb2dfb56e41fdc4ffdd0d841039fb6f4443be385347d127b18fdb9d9d2"
+    }, 
+    "length": 39922959
+   }, 
+   "pub/mozilla.org/firefox/nightly/2013/11/2013-11-18-09-41-34-mozilla-central/firefox-28.0a1.en-US.linux-i686.partial.20131118030203-20131118094134.mar": {
+    "hashes": {
+     "sha256": "ee773558ae354b04571bf58966ce54a3f25ef92cdb10532b79481aacf64e4a68"
+    }, 
+    "length": 5360864
+   }, 
    "updatexmls/aurora/update.xml": {
     "hashes": {
      "sha256": "3b2042545db7f4e025a17304e6c0fba25bada55a01f619b46e2e08a196d17640"

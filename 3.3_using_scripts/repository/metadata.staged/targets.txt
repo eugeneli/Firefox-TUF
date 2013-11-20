@@ -1,35 +1,37 @@
 {
  "signatures": [
   {
-   "keyid": "1c3eb24b2da71c0060e83f1d04ac53bb49359bcf0955940021ddce91871abd36", 
+   "keyid": "36d7bfe1f52b877c7ce6e4d142dd41c15ce0c6de5e71250421e9a5e69c802622", 
    "method": "PyCrypto-PKCS#1 PSS", 
-   "sig": "04ab1ebb52a5b28432258722200208e80b69e29e79fe90053fd84b85ccadf6378e85a86256d56292db95923036987c6583f297dc7927cbe697e06cfee39b31bef55e8fbe6ae02c8c899e9d93eac92dbf0ed1eb24570fdac28b87653ff0ab0a894a0fb7aea1ff4bbf141f7ed329cce5321b99b4c81630fcebbefc9d05d92ec68d19e0552e8a2a8baf354b3634c2517286e8a85237c6e926a07572037677c7d5b1b5652590e56b8305e26ea2e1e43b819f9cd14d1d57a7970279e8f3a6e0342bffac2ad66c6ba60364fbece29150f415357e1e80398d04b1d8d3e4eda84f918d343a90607205e9b168539795a951bf6fd5728ccd43bad24d7eeb20814fdfb2a177b2613f5aca1c9288dffb3d54eb5923433216a3efe3dca4df89dfb48169204bd6930c3304de1789faef7594825e1b00642f63f9450fc044cd819583074d2c2cfb1e9251649f29e603384cb8bb4d968636dc701040739936edcde21e4f4dec6f0519b569a7b3335a52d65b4558c5f5581caab10d5083eeceafea0747a9edc60314"
+   "sig": "02416eb3e12edf8d7725d5f45baf598f310021c435d70717738e8c95f8b82c794c0786d0cf3202029330eb035284d27410815ee61255c8b6ed1c3ccf2b423db89e4ed70659fbc530419cc6ee715fb1801870dc328b45b09f6b90e955819d7f4cd941945df38496a7e3346ca27b8d89c558fb1a2ef83683855d80f54825c66d1bb11fba24a3bac2d8a1ed741244dfc149622fcbf19029a0a4e78fc983fa8abcc75af9046a7c35f6a1ee739ec4cbaa414397979df18bc322635c1463d457625abf0c1ae1ae00e94d227679341ab6809a1b0bfbc964073d53523f5f20828d6f6b43a6af8ec0a67245444a63fe9c7c88c28d7ef7ed69118b46c7114e2636acbdf564e0a2aab3310fcc698235be64e4fbac7282c6c8691b7ab50f9d8be72d6cbe78f5776d11094da81edb1ec95b86a85aab343286030a208a17f46a2cdac27413bb0fab11efec9b84969325667e972bc9d63259c3ee7a7c5789efbf06af7ddaf0f443281a2ab5bf0ceb8bc8c9004926484ad4a001c28a3eb185aec35967723b2cbb1e"
   }
  ], 
  "signed": {
   "_type": "Targets", 
   "delegations": {
    "keys": {
-    "4069d32d4dbcffc56625f1953250aceb9a266462a9b883e623b5ea17f34741f2": {
+    "fc039fe7cdefda289f1b0abdef781c721400aa5595e3e7d852d85318f3f1f16e": {
      "keytype": "rsa", 
      "keyval": {
       "private": "", 
-      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6Ufmo3/BsonvLzz3PrmF\nbO9Uqb9YjEenmm69elpxmXg5lP8LegLqM1T8mehyyE5nUAkEXe453pntu+sfP9JN\nlEaVAevUjxW1WIcqKX/eh/RbUyJqKw9sTYnq3Ouy1g+oebLBqqNTSf4m/7B00c+F\nKiGkjvZhLr/0YBQ4Qq2ZPqyLdjJuZKYt6a5gauTUegGLh+1d+C2JaQnf1uXDXwXE\nCRvmuQKFD/Ic7QBOjzy731zyY8Ri0DudMS1n5N2a7l7FlP9G5sRdECU//Sy0CPTM\nEIMs/f7hgMpdUNhh5t37x2ifzvWIwugvE1Q0kDMj1TEIzWkn0v71NMaM7qRghZQI\n7QIDAQAB\n-----END PUBLIC KEY-----"
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2JlpDGguwtcsxVWmZx6K\nmRigy3u6qadYHkwY5uSpwToZ7m87kPkPuLttfrpUr98or78Bu+iPekbKRl5X4/5D\nMQeZhuOPJ7TiyItvNvcDqFSFDy6F5eWxVYVNFBgSPW0Coh7m15r5ge7N8XABUkcI\ndw1zDPDLjB9vXYqJiDUgoCXs4LtRWRU43IjBJb4IpyuK4Ut9D35fcEsaKObmR1z+\nHSox7cLdMbZdf5nWM5vI3MMBk9VQcYVCOHyfEplB0RsUGOhtNwbEDb2JlN3Qo4uj\n/6uzbMyqav5itzsJnaG3h+yUI/MREe74jEXLi0ZelDp07BlrDfH4NvZLb08PTCTA\nOwIDAQAB\n-----END PUBLIC KEY-----"
      }
     }
    }, 
    "roles": [
     {
      "keyids": [
-      "4069d32d4dbcffc56625f1953250aceb9a266462a9b883e623b5ea17f34741f2"
+      "fc039fe7cdefda289f1b0abdef781c721400aa5595e3e7d852d85318f3f1f16e"
      ], 
      "name": "targets/nightly", 
-     "paths": [], 
+     "paths": [
+      "pub/mozilla.org/firefox/releases"
+     ], 
      "threshold": 1
     }
    ]
   }, 
-  "expires": "2014-02-18 14:16:46 UTC", 
+  "expires": "2014-02-19 13:20:15 UTC", 
   "targets": {
    "pub/mozilla.org/firefox/releases/26.0b5/update/linux-x86_64/en-US/firefox-26.0b4-26.0b5.partial.mar": {
     "hashes": {
