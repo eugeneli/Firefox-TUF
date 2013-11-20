@@ -1,5 +1,6 @@
 #interpose.py
 
+import time
 import mimetypes
 import tuf.interposition
 
@@ -10,17 +11,20 @@ from tuf.interposition import urllib2_tuf
 def start(context):
     context.log("start")
     tuf.interposition.configure()
-
+    
 # - skip interposition and use a lower level
 # - handle errors
 # - handle https
 
 def request(context, flow):
+
     context.log("request")
     url = flow.request.get_url()
+    url = "http://mirror1.poly.edu" + url[len("http://127.0.0.1:8080"):]
+
     if flow.request.path.endswith('.xml?force=1'):
        url = url[:-8]
-    print url
+
     content_type, content_encoding = mimetypes.guess_type(url)
 
     if not content_type:
@@ -28,8 +32,11 @@ def request(context, flow):
         content_type = "application/octet-stream"
       else:
         content_type = "text/html"
-
+    context.log("before")
+    context.log(url)
     document = urllib2_tuf.urlopen(url)
+    context.log("after")
+
     content = document.read()
     response = Response(flow.request,
 

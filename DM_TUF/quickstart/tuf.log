@@ -62,3 +62,105 @@
 [2013-11-12 23:39:18,085 UTC] [tuf.signerlib] [INFO][sign_metadata:705@signerlib.py] Signing '/home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt' with b627d0ea52df92530792a567f589f4cdb061060c561fc7cb5ae23f7ed8f74ca0
 [2013-11-12 23:39:18,094 UTC] [tuf.signerlib] [INFO][write_metadata_file:597@signerlib.py] No compression for /home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt
 [2013-11-12 23:39:18,094 UTC] [tuf.signerlib] [INFO][write_metadata_file:608@signerlib.py] Writing to /home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt
+[2013-11-15 01:48:46,291 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt)
+[2013-11-15 01:49:24,739 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:242@keystore.py] Loading private key(s) from '/home/dennismirante/appsec/TUF/quickstart/keystore'
+[2013-11-15 01:49:27,822 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:288@keystore.py] Loaded key: 0b048a8c0f4b195f85aeb626f530828b924f3acc9af2159d7757ac1e6ac945ce
+[2013-11-15 01:49:27,822 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:300@keystore.py] Done.
+[2013-11-15 01:49:28,569 UTC] [tuf.signerlib] [INFO][sign_metadata:705@signerlib.py] Signing '/home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt' with 0b048a8c0f4b195f85aeb626f530828b924f3acc9af2159d7757ac1e6ac945ce
+[2013-11-15 01:49:28,579 UTC] [tuf.signerlib] [INFO][write_metadata_file:597@signerlib.py] No compression for /home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt
+[2013-11-15 01:49:28,579 UTC] [tuf.signerlib] [INFO][write_metadata_file:608@signerlib.py] Writing to /home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt
+[2013-11-15 01:50:06,723 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt)
+[2013-11-15 01:50:46,434 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:242@keystore.py] Loading private key(s) from '/home/dennismirante/appsec/TUF/quickstart/keystore'
+[2013-11-15 01:50:49,279 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:288@keystore.py] Loaded key: 2eca30d93e174452fcffd1c0e1e07231b3f444d30eea324ca09949e2c07a3f46
+[2013-11-15 01:50:49,279 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:300@keystore.py] Done.
+[2013-11-15 01:50:49,279 UTC] [tuf.signerlib] [INFO][sign_metadata:705@signerlib.py] Signing '/home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt' with 2eca30d93e174452fcffd1c0e1e07231b3f444d30eea324ca09949e2c07a3f46
+[2013-11-15 01:50:49,289 UTC] [tuf.signerlib] [DEBUG][build_release_file:1237@signerlib.py] No compressed version of release metadata will be included.
+[2013-11-15 01:50:49,289 UTC] [tuf.signerlib] [INFO][write_metadata_file:597@signerlib.py] No compression for /home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt
+[2013-11-15 01:50:49,289 UTC] [tuf.signerlib] [INFO][write_metadata_file:608@signerlib.py] Writing to /home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt
+[2013-11-15 01:50:49,289 UTC] [tuf.signerlib] [INFO][build_release_file:1240@signerlib.py] Wrote /home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt
+[2013-11-15 01:51:16,146 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt)
+[2013-11-15 01:51:52,146 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:242@keystore.py] Loading private key(s) from '/home/dennismirante/appsec/TUF/quickstart/keystore'
+[2013-11-15 01:51:55,034 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:288@keystore.py] Loaded key: b627d0ea52df92530792a567f589f4cdb061060c561fc7cb5ae23f7ed8f74ca0
+[2013-11-15 01:51:55,034 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:300@keystore.py] Done.
+[2013-11-15 01:51:55,034 UTC] [tuf.signerlib] [INFO][build_timestamp_file:1306@signerlib.py] Including ('gz',) versions of release in timestamp.
+[2013-11-15 01:51:55,034 UTC] [tuf.signerlib] [WARNING][generate_timestamp_metadata:533@signerlib.py] Could not get fileinfo about /home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt.gz
+[2013-11-15 01:51:55,034 UTC] [tuf.signerlib] [INFO][sign_metadata:705@signerlib.py] Signing '/home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt' with b627d0ea52df92530792a567f589f4cdb061060c561fc7cb5ae23f7ed8f74ca0
+[2013-11-15 01:51:55,043 UTC] [tuf.signerlib] [INFO][write_metadata_file:597@signerlib.py] No compression for /home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt
+[2013-11-15 01:51:55,044 UTC] [tuf.signerlib] [INFO][write_metadata_file:608@signerlib.py] Writing to /home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt
+[2013-11-15 20:53:29,740 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt)
+[2013-11-15 20:54:46,763 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt)
+[2013-11-15 20:55:45,387 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:242@keystore.py] Loading private key(s) from '/home/dennismirante/appsec/TUF/quickstart/keystore'
+[2013-11-15 20:55:48,245 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:288@keystore.py] Loaded key: 0b048a8c0f4b195f85aeb626f530828b924f3acc9af2159d7757ac1e6ac945ce
+[2013-11-15 20:55:48,245 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:300@keystore.py] Done.
+[2013-11-15 20:55:48,965 UTC] [tuf.signerlib] [INFO][sign_metadata:705@signerlib.py] Signing '/home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt' with 0b048a8c0f4b195f85aeb626f530828b924f3acc9af2159d7757ac1e6ac945ce
+[2013-11-15 20:55:48,975 UTC] [tuf.signerlib] [INFO][write_metadata_file:597@signerlib.py] No compression for /home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt
+[2013-11-15 20:55:48,975 UTC] [tuf.signerlib] [INFO][write_metadata_file:608@signerlib.py] Writing to /home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt
+[2013-11-15 20:56:24,491 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt)
+[2013-11-15 20:56:59,611 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:242@keystore.py] Loading private key(s) from '/home/dennismirante/appsec/TUF/quickstart/keystore'
+[2013-11-15 20:57:02,492 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:288@keystore.py] Loaded key: 2eca30d93e174452fcffd1c0e1e07231b3f444d30eea324ca09949e2c07a3f46
+[2013-11-15 20:57:02,493 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:300@keystore.py] Done.
+[2013-11-15 20:57:02,493 UTC] [tuf.signerlib] [INFO][sign_metadata:705@signerlib.py] Signing '/home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt' with 2eca30d93e174452fcffd1c0e1e07231b3f444d30eea324ca09949e2c07a3f46
+[2013-11-15 20:57:02,503 UTC] [tuf.signerlib] [DEBUG][build_release_file:1237@signerlib.py] No compressed version of release metadata will be included.
+[2013-11-15 20:57:02,503 UTC] [tuf.signerlib] [INFO][write_metadata_file:597@signerlib.py] No compression for /home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt
+[2013-11-15 20:57:02,503 UTC] [tuf.signerlib] [INFO][write_metadata_file:608@signerlib.py] Writing to /home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt
+[2013-11-15 20:57:02,503 UTC] [tuf.signerlib] [INFO][build_release_file:1240@signerlib.py] Wrote /home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt
+[2013-11-15 20:57:36,458 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt)
+[2013-11-15 20:58:07,466 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:242@keystore.py] Loading private key(s) from '/home/dennismirante/appsec/TUF/quickstart/keystore'
+[2013-11-15 20:58:10,402 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:288@keystore.py] Loaded key: b627d0ea52df92530792a567f589f4cdb061060c561fc7cb5ae23f7ed8f74ca0
+[2013-11-15 20:58:10,403 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:300@keystore.py] Done.
+[2013-11-15 20:58:10,403 UTC] [tuf.signerlib] [INFO][build_timestamp_file:1306@signerlib.py] Including ('gz',) versions of release in timestamp.
+[2013-11-15 20:58:10,403 UTC] [tuf.signerlib] [WARNING][generate_timestamp_metadata:533@signerlib.py] Could not get fileinfo about /home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt.gz
+[2013-11-15 20:58:10,403 UTC] [tuf.signerlib] [INFO][sign_metadata:705@signerlib.py] Signing '/home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt' with b627d0ea52df92530792a567f589f4cdb061060c561fc7cb5ae23f7ed8f74ca0
+[2013-11-15 20:58:10,412 UTC] [tuf.signerlib] [INFO][write_metadata_file:597@signerlib.py] No compression for /home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt
+[2013-11-15 20:58:10,412 UTC] [tuf.signerlib] [INFO][write_metadata_file:608@signerlib.py] Writing to /home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt
+[2013-11-16 00:43:02,254 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt)
+[2013-11-16 00:43:35,101 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:242@keystore.py] Loading private key(s) from '/home/dennismirante/appsec/TUF/quickstart/keystore'
+[2013-11-16 00:43:37,934 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:288@keystore.py] Loaded key: 0b048a8c0f4b195f85aeb626f530828b924f3acc9af2159d7757ac1e6ac945ce
+[2013-11-16 00:43:37,934 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:300@keystore.py] Done.
+[2013-11-16 00:43:38,660 UTC] [tuf.signerlib] [INFO][sign_metadata:705@signerlib.py] Signing '/home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt' with 0b048a8c0f4b195f85aeb626f530828b924f3acc9af2159d7757ac1e6ac945ce
+[2013-11-16 00:43:38,669 UTC] [tuf.signerlib] [INFO][write_metadata_file:597@signerlib.py] No compression for /home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt
+[2013-11-16 00:43:38,669 UTC] [tuf.signerlib] [INFO][write_metadata_file:608@signerlib.py] Writing to /home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt
+[2013-11-16 00:43:59,181 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt)
+[2013-11-16 00:44:30,253 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:242@keystore.py] Loading private key(s) from '/home/dennismirante/appsec/TUF/quickstart/keystore'
+[2013-11-16 00:44:33,111 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:288@keystore.py] Loaded key: 2eca30d93e174452fcffd1c0e1e07231b3f444d30eea324ca09949e2c07a3f46
+[2013-11-16 00:44:33,111 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:300@keystore.py] Done.
+[2013-11-16 00:44:33,111 UTC] [tuf.signerlib] [INFO][sign_metadata:705@signerlib.py] Signing '/home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt' with 2eca30d93e174452fcffd1c0e1e07231b3f444d30eea324ca09949e2c07a3f46
+[2013-11-16 00:44:33,121 UTC] [tuf.signerlib] [DEBUG][build_release_file:1237@signerlib.py] No compressed version of release metadata will be included.
+[2013-11-16 00:44:33,121 UTC] [tuf.signerlib] [INFO][write_metadata_file:597@signerlib.py] No compression for /home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt
+[2013-11-16 00:44:33,121 UTC] [tuf.signerlib] [INFO][write_metadata_file:608@signerlib.py] Writing to /home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt
+[2013-11-16 00:44:33,121 UTC] [tuf.signerlib] [INFO][build_release_file:1240@signerlib.py] Wrote /home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt
+[2013-11-16 00:45:04,701 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt)
+[2013-11-16 00:45:31,644 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:242@keystore.py] Loading private key(s) from '/home/dennismirante/appsec/TUF/quickstart/keystore'
+[2013-11-16 00:45:34,431 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:288@keystore.py] Loaded key: b627d0ea52df92530792a567f589f4cdb061060c561fc7cb5ae23f7ed8f74ca0
+[2013-11-16 00:45:34,431 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:300@keystore.py] Done.
+[2013-11-16 00:45:34,431 UTC] [tuf.signerlib] [INFO][build_timestamp_file:1306@signerlib.py] Including ('gz',) versions of release in timestamp.
+[2013-11-16 00:45:34,431 UTC] [tuf.signerlib] [WARNING][generate_timestamp_metadata:533@signerlib.py] Could not get fileinfo about /home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt.gz
+[2013-11-16 00:45:34,431 UTC] [tuf.signerlib] [INFO][sign_metadata:705@signerlib.py] Signing '/home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt' with b627d0ea52df92530792a567f589f4cdb061060c561fc7cb5ae23f7ed8f74ca0
+[2013-11-16 00:45:34,440 UTC] [tuf.signerlib] [INFO][write_metadata_file:597@signerlib.py] No compression for /home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt
+[2013-11-16 00:45:34,440 UTC] [tuf.signerlib] [INFO][write_metadata_file:608@signerlib.py] Writing to /home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt
+[2013-11-19 15:19:04,547 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt)
+[2013-11-19 15:19:42,867 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:242@keystore.py] Loading private key(s) from '/home/dennismirante/appsec/TUF/quickstart/keystore'
+[2013-11-19 15:19:45,837 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:288@keystore.py] Loaded key: 0b048a8c0f4b195f85aeb626f530828b924f3acc9af2159d7757ac1e6ac945ce
+[2013-11-19 15:19:45,837 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:300@keystore.py] Done.
+[2013-11-19 15:19:46,567 UTC] [tuf.signerlib] [INFO][sign_metadata:705@signerlib.py] Signing '/home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt' with 0b048a8c0f4b195f85aeb626f530828b924f3acc9af2159d7757ac1e6ac945ce
+[2013-11-19 15:19:46,577 UTC] [tuf.signerlib] [INFO][write_metadata_file:597@signerlib.py] No compression for /home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt
+[2013-11-19 15:19:46,577 UTC] [tuf.signerlib] [INFO][write_metadata_file:608@signerlib.py] Writing to /home/dennismirante/appsec/TUF/quickstart/repository/metadata/targets.txt
+[2013-11-19 15:20:24,787 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt)
+[2013-11-19 15:21:01,187 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt)
+[2013-11-19 15:21:27,618 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:242@keystore.py] Loading private key(s) from '/home/dennismirante/appsec/TUF/quickstart/keystore'
+[2013-11-19 15:21:30,516 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:288@keystore.py] Loaded key: 2eca30d93e174452fcffd1c0e1e07231b3f444d30eea324ca09949e2c07a3f46
+[2013-11-19 15:21:30,516 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:300@keystore.py] Done.
+[2013-11-19 15:21:30,517 UTC] [tuf.signerlib] [INFO][sign_metadata:705@signerlib.py] Signing '/home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt' with 2eca30d93e174452fcffd1c0e1e07231b3f444d30eea324ca09949e2c07a3f46
+[2013-11-19 15:21:30,526 UTC] [tuf.signerlib] [DEBUG][build_release_file:1237@signerlib.py] No compressed version of release metadata will be included.
+[2013-11-19 15:21:30,526 UTC] [tuf.signerlib] [INFO][write_metadata_file:597@signerlib.py] No compression for /home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt
+[2013-11-19 15:21:30,526 UTC] [tuf.signerlib] [INFO][write_metadata_file:608@signerlib.py] Writing to /home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt
+[2013-11-19 15:21:30,526 UTC] [tuf.signerlib] [INFO][build_release_file:1240@signerlib.py] Wrote /home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt
+[2013-11-19 15:22:08,850 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt)
+[2013-11-19 15:22:38,225 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:242@keystore.py] Loading private key(s) from '/home/dennismirante/appsec/TUF/quickstart/keystore'
+[2013-11-19 15:22:41,224 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:288@keystore.py] Loaded key: b627d0ea52df92530792a567f589f4cdb061060c561fc7cb5ae23f7ed8f74ca0
+[2013-11-19 15:22:41,224 UTC] [tuf.keystore] [INFO][load_keystore_from_keyfiles:300@keystore.py] Done.
+[2013-11-19 15:22:41,224 UTC] [tuf.signerlib] [INFO][build_timestamp_file:1306@signerlib.py] Including ('gz',) versions of release in timestamp.
+[2013-11-19 15:22:41,224 UTC] [tuf.signerlib] [WARNING][generate_timestamp_metadata:533@signerlib.py] Could not get fileinfo about /home/dennismirante/appsec/TUF/quickstart/repository/metadata/release.txt.gz
+[2013-11-19 15:22:41,224 UTC] [tuf.signerlib] [INFO][sign_metadata:705@signerlib.py] Signing '/home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt' with b627d0ea52df92530792a567f589f4cdb061060c561fc7cb5ae23f7ed8f74ca0
+[2013-11-19 15:22:41,234 UTC] [tuf.signerlib] [INFO][write_metadata_file:597@signerlib.py] No compression for /home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt
+[2013-11-19 15:22:41,234 UTC] [tuf.signerlib] [INFO][write_metadata_file:608@signerlib.py] Writing to /home/dennismirante/appsec/TUF/quickstart/repository/metadata/timestamp.txt

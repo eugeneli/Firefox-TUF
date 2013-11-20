@@ -1,10 +1,10 @@
 {
   "configurations": {
-    "mirror1.poly.edu": {
+     "mirror1.poly.edu" : {
       "repository_directory": "client/",
        "repository_mirrors" : {
         "mirror1": {
-          "url_prefix": "http://128.238.64.154:8080",
+          "url_prefix": "http://128.238.64.154:80",
           "metadata_path": "metadata",
           "targets_path": "targets",
           "confined_target_dirs": [ "" ]
