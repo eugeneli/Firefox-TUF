@@ -1,27 +1,27 @@
 {
  "signatures": [
   {
-   "keyid": "60d0299169f58936175cbe42b20946e1c26e49cd03b26f0f21698b9e56bee300", 
+   "keyid": "28e8ec4eb64a497c0e5acd755d33547ad90aa06dc9881f9310bcb4f5be267689", 
    "method": "PyCrypto-PKCS#1 PSS", 
-   "sig": "250a9f443092f1cacd1002e183873dbdf8bc9e6aaebfd336d299a99039ab6ab524ee05ea5a1bb472bf1769fef986ddc910f8897a117451f3daeb1f2162a6670832b35b03605cff794affaffe8765f8397bd953aabba951fbb91a1be5b2b010d13ae88044ee0ea6b7851224acdd78ec5675d6022dee79dd9ffcc98194b6e3e9164c37d7cf5aa87438a6bf6af88d59049bc1835dd68c7f0b5ef3defa4f53028f448ccba08b5a7f19a17424cb20005d1e76033bb3c07a27a92d954b16f3d4c9712dce10eedf8ee661a092b09da4230acc5506b13605f9bb05c5ab42b7bdde322154315bb9ad48769dc3d4ecae4a27b7f8dc0b7c159f9fa19dcae65156176cea46b3634c31ae6e3a02d78d2eb6b102fed65e9e6f07e0e982c93086e1f2655b57fa7077f56d75368433781396512b856cdf53118884cb4fce102d54bed6b9a43347c61c59592dd024b9b839a0675e0b74789aa800fd1f7fdb9c4dcee873a6c69718fb3fa6648e925d9bbe0324b75df5d5be5e22708642c5dd24cd3737df5017daa969"
+   "sig": "817beb14fc0617696bea88b396af044c7c6bc3358e244df48dcac58e0ddc21a4333be926cb6c5efcf68fb0d26546333ce177963b472f83f81ffa99755ca1cb3f81d51a0c6ac8d05e30767283faad4d539f3df50eca4a76d5a5d9e336f07811e299c80840ef7114d1ae7159b77896da2108da2ed655d1b71a819ebae4bf6ad6a441b7dd0af5526207c82ab00f3f23f7ac83ad930d8ae6eebeda1528f6c68aba98634b51d5c477f82a8e5e27a835b958698e78f2b42bc23f1216f5981239b094adb6c5d519a96607bd3c2f3ea50323db27792abbd19184341e9c3208dc13beadd35b68c87e363777b09fa2d03dfade2674a113742bb44b169d2ed20f76f01692ae1fa8e0dbdf2fd4c923be759832ce2bc6d6180d49e3cfcc323c1bd098829744a3a57a0f6ebcf5c0de4ebff39528cc1eed032bd33a87a7d53b0b4522ae4a2c8901a5bef2747f2f3cf3c3be9f22821811a6729426aa0caf8ce2d1ae0f7a1730df20406ebe71ec1a7679f88d2d44b8fd3fa80138e61025eecadb3e4a7d10c2fdf660"
   }
  ], 
  "signed": {
   "_type": "Targets", 
   "delegations": {
    "keys": {
-    "2205f87f47b63c4139fceee7ef952091edbc09677d4694c737375efce809afd5": {
+    "43e1f4791ea7a50cd2798f758d0b45c09227e01e713b7b1b093579623d7e2d32": {
      "keytype": "rsa", 
      "keyval": {
       "private": "", 
-      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoZTveJQQ41Cevt9InRuL\nrW7pQC8nh22gtH37TVUD1ImYtq47/9gRBY7PkdXwj1Z5Cq6lCLPC9TkMX19j/l5s\nei6jQmHyseH/vMh+suIBNfHjr2g4AY8VhYo1oq/vsssNJLn+GqR5mIevAV1aN5dT\n4r6me8cluaTX6B4izc1qN+cQ3Zevm427sAR4jxd+WQyrZ/TyW62rzc03cArzmTRX\n0CXgZ6oRNymQK8AcALrYssawqCI9CoVRDQbdHh+FithWi8OazPRZx4+Nrj2t2Dpe\nnZX95QzYhi96YmF71LkD1Bx5RAOY9gBwNrdns761XVO4Nxox8Hcb0t6Q6Hf3qOgQ\n3wIDAQAB\n-----END PUBLIC KEY-----"
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA16JG6v+PR2sJhemaoGE0\nBXC06aZoQEZHDUvaI7RigBgL1Sz7OZ1efs9jJZbrOjW/pnQ5+VQuwE3q3C6AhzTe\n5u2VJJgjTH+7qQP0oHesqWIq9WBobUsRZVSIVCKVPBkFZM0YLSqVD3UkNfJA1cOE\nrz7TLLfvYxJSNZq2xhv6tJfibDhKq1hbqiM0sQcwVwRDMxy0Zwt1wk/XpBtDP8Ub\n9hR97w+c3LVc2ttbTsDhzJP1qY2Z2C7vueNknIy/GS8sHMmvmjbGE0cCAbNTIFbk\n/yqQPjMqC9pkufl4c9XRKiKWHNHVGLAfbAupi9/zoB2f/Ko+S6VNJyMlBjAEknqy\npwIDAQAB\n-----END PUBLIC KEY-----"
      }
     }
    }, 
    "roles": [
     {
      "keyids": [
-      "2205f87f47b63c4139fceee7ef952091edbc09677d4694c737375efce809afd5"
+      "43e1f4791ea7a50cd2798f758d0b45c09227e01e713b7b1b093579623d7e2d32"
      ], 
      "name": "targets/nightly", 
      "paths": [
@@ -31,7 +31,7 @@
     }
    ]
   }, 
-  "expires": "2014-02-25 09:18:25 UTC", 
+  "expires": "2014-02-25 09:03:45 UTC", 
   "targets": {
    "pub/mozilla.org/firefox/releases/26.0b5/update/linux-x86_64/en-US/firefox-26.0b4-26.0b5.partial.mar": {
     "hashes": {
@@ -47,9 +47,9 @@
    }, 
    "pub/mozilla.org/firefox/releases/26.0b5/update/linux-x86_64/en-US/update.xml": {
     "hashes": {
-     "sha256": "a5e3f9d6aba977bcb1022845ef354f1156594be79ea7094cc966bb745cfbfe52"
+     "sha256": "b6cac41cb56bb271a68e61c46ec30bccb8183b4fbaab4b23e82fd2ccad1b01b9"
     }, 
-    "length": 952
+    "length": 957
    }, 
    "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 2.6.32-358.23.2.el6.x86_64 (GTK 2.18.9)/default/default/firefox-24.0-25.0.partial.mar": {
     "hashes": {
