@@ -1,13 +1,18 @@
 from tuf.libtuf import *
 
 repository = load_repository("repository/")
-repository.targets.add_target("repository/targets/updatexmls/release/update.xml")
-repository.targets.add_target("repository/targets/updatexmls/beta/update.xml")
+#repository.targets.add_target("repository/targets/updatexmls/release/update.xml")
+#repository.targets.add_target("repository/targets/updatexmls/beta/update.xml")
 
-list_of_targets = repository.get_filepaths_in_directory("repository/targets/update/",recursive_walk=True, followlinks=True)
-repository.targets.add_targets(list_of_targets)
-list_of_targets2 = repository.get_filepaths_in_directory("repository/targets/pub/mozilla.org/firefox/releases/",recursive_walk=True, followlinks=True)
-repository.targets.add_targets(list_of_targets2)
+release_targets = repository.get_filepaths_in_directory("repository/targets/update/",recursive_walk=True, followlinks=True)
+repository.targets.add_targets(release_targets)
+beta_targets = repository.get_filepaths_in_directory("repository/targets/pub/mozilla.org/firefox/releases/",recursive_walk=True, followlinks=True)
+repository.targets.add_targets(beta_targets)
+
+#list_of_targets = repository.get_filepaths_in_directory("repository/targets/update/",recursive_walk=True, followlinks=True)
+#repository.targets.add_targets(list_of_targets)
+#list_of_targets2 = repository.get_filepaths_in_directory("repository/targets/pub/mozilla.org/firefox/releases/",recursive_walk=True, followlinks=True)
+#repository.targets.add_targets(list_of_targets2)
 
 generate_and_write_rsa_keypair("keystore/nightly/nightly_key", bits=2048, password="asd123")
 public_nightly_key = import_rsa_publickey_from_file("keystore/nightly/nightly_key.pub")
@@ -18,12 +23,15 @@ private_nightly_key = import_rsa_privatekey_from_file("keystore/nightly/nightly_
 repository.targets.nightly.load_signing_key(private_nightly_key)
 
 #Add Nightly/Aurora update.xml targets
-repository.targets.nightly.add_target("repository/targets/updatexmls/nightly/update.xml")
-repository.targets.nightly.add_target("repository/targets/updatexmls/aurora/update.xml")
+#repository.targets.nightly.add_target("repository/targets/updatexmls/nightly/update.xml")
+#repository.targets.nightly.add_target("repository/targets/updatexmls/aurora/update.xml")
+
+nightly_targets = repository.get_filepaths_in_directory("repository/targets/pub/mozilla.org/firefox/nightly/",recursive_walk=True, followlinks=True) 
+repository.targets.nightly.add_targets(nightly_targets)
 
 #Add Nightly/Aurora .mar targets
-list_of_nightly_targets = repository.get_filepaths_in_directory("repository/targets/pub/mozilla.org/firefox/nightly/",recursive_walk=True, followlinks=True) 
-repository.targets.nightly.add_targets(list_of_nightly_targets)
+#list_of_nightly_targets = repository.get_filepaths_in_directory("repository/targets/pub/mozilla.org/firefox/nightly/",recursive_walk=True, followlinks=True) 
+#repository.targets.nightly.add_targets(list_of_nightly_targets)
 #print list_of_nightly_targets
 
 private_targets_key = import_rsa_privatekey_from_file("keystore/targets/targets_key", password="asd123")

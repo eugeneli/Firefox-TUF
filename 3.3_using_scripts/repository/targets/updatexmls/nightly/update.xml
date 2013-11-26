@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<updates>
-    <update type="minor" version="28.0a1" extensionVersion="28.0a1" buildID="20131118094134">
-        <patch type="complete" URL="http://mirror1.poly.edu/pub/mozilla.org/firefox/nightly/2013/11/2013-11-18-09-41-34-mozilla-central/firefox-28.0a1.en-US.linux-i686.complete.mar" hashFunction="sha512" hashValue="166f068ece1907a6eb8829701c054b91cafa1fa48b085288f72b2ef931bd61de7ff816c97f7e3556a154980e181d3f504efabda947e9d6a9d0d723e90bda379f" size="39922959"/>
-    </update>
-</updates>
