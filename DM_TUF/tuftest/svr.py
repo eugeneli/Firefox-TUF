@@ -4,7 +4,7 @@ import tuf
 import tuf.interposition
 from tuf.interposition import urllib2_tuf
 
-import shutil
+
 
 class MyHandler(BaseHTTPRequestHandler):
 
@@ -25,16 +25,17 @@ class MyHandler(BaseHTTPRequestHandler):
                 return
 
             if self.path.endswith(".mar"):
-                print f.headers
                 chunk = f.read()
+#                import pdb; pdb.set_trace()
                 self.send_response(200)
                 self.send_header('Content-Type',  'application/octet-stream')
+                self.send_header('Accept-Ranges', 'bytes')
                 self.send_header('Content-Length', len(chunk))
                 self.end_headers()
-#                shutil.copyfileobj (f, self.wfile)
 
                 print len(chunk)
                 self.wfile.write(chunk)
+#                self.wfile.close()
                 f.close()
                 return
 
