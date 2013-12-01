@@ -3,17 +3,12 @@ import datetime
 import distutils.core
 
 #Get passwords for root
-rootKeyFile = raw_input("Enter path to first root password file: ")
-f = open(rootKeyFile)
-rootKey = f.readline()
-
-rootKeyFile2 = raw_input("Enter path to second root password file: ")
-f = open(rootKeyFile2)
-rootKey2 = f.readline()
+rootPassword = raw_input("Enter path to first root password file: ")
+rootPassword2 = raw_input("Enter path to second root password file: ")
 
 #Generate root keys
-generate_and_write_rsa_keypair("keystore/root_key", bits=2048, password=rootKey)
-generate_and_write_rsa_keypair("keystore/root_key2", bits=2048, password=rootKey2)
+generate_and_write_rsa_keypair("keystore/root_key", bits=2048, password=rootPassword)
+generate_and_write_rsa_keypair("keystore/root_key2", bits=2048, password=rootPassword2)
 
 public_root_key = import_rsa_publickey_from_file("keystore/root_key.pub")
 public_root_key2 = import_rsa_publickey_from_file("keystore/root_key2.pub")
@@ -24,37 +19,29 @@ repository.root.add_key(public_root_key2)
 
 repository.root.threshold = 2
 
-private_root_key = import_rsa_privatekey_from_file("keystore/root_key", password=rootKey)
-private_root_key2 = import_rsa_privatekey_from_file("keystore/root_key2", password=rootKey2)
+private_root_key = import_rsa_privatekey_from_file("keystore/root_key", password=rootPassword)
+private_root_key2 = import_rsa_privatekey_from_file("keystore/root_key2", password=rootPassword2)
 
 repository.root.load_signing_key(private_root_key)
 repository.root.load_signing_key(private_root_key2)
 repository.status()
 
 #Get password for targets, release, timestamp
-targetsKeyFile = raw_input("Enter path to TARGETS password file: ")
-f = open(targetsKeyFile)
-targetsKey = f.readline()
+targetsPassword = raw_input("Enter path to TARGETS password file: ")
+releasePassword = raw_input("Enter path to RELEASE password file: ")
+timestampPassword = raw_input("Enter path to TIMESTAMP password file: ")
 
-releaseKeyFile = raw_input("Enter path to RELEASE password file: ")
-f = open(releaseKeyFile)
-releaseKey = f.readline()
-
-timestampKeyFile = raw_input("Enter path to TIMESTAMP password file: ")
-f = open(timestampKeyFile)
-timestampKey = f.readline()
-
-generate_and_write_rsa_keypair("keystore/targets/targets_key", password=targetsKey)
-generate_and_write_rsa_keypair("keystore/release/release_key", password=releaseKey)
-generate_and_write_rsa_keypair("keystore/timestamp/timestamp_key", password=timestampKey)
+generate_and_write_rsa_keypair("keystore/targets/targets_key", password=targetsPassword)
+generate_and_write_rsa_keypair("keystore/release/release_key", password=releasePassword)
+generate_and_write_rsa_keypair("keystore/timestamp/timestamp_key", password=timestampPassword)
 
 repository.targets.add_key(import_rsa_publickey_from_file("keystore/targets/targets_key.pub"))
 repository.release.add_key(import_rsa_publickey_from_file("keystore/release/release_key.pub"))
 repository.timestamp.add_key(import_rsa_publickey_from_file("keystore/timestamp/timestamp_key.pub"))
 
-private_targets_key = import_rsa_privatekey_from_file("keystore/targets/targets_key", password=targetsKey)
-private_release_key = import_rsa_privatekey_from_file("keystore/release/release_key", password=releaseKey)
-private_timestamp_key = import_rsa_privatekey_from_file("keystore/timestamp/timestamp_key", password=timestampKey)
+private_targets_key = import_rsa_privatekey_from_file("keystore/targets/targets_key", password=targetsPassword)
+private_release_key = import_rsa_privatekey_from_file("keystore/release/release_key", password=releasePassword)
+private_timestamp_key = import_rsa_privatekey_from_file("keystore/timestamp/timestamp_key", password=timestampPassword)
 
 repository.targets.load_signing_key(private_targets_key)
 repository.release.load_signing_key(private_release_key)
@@ -72,28 +59,26 @@ repository.targets.add_targets(release_targets)
 beta_targets = repository.get_filepaths_in_directory("repository/targets/pub/mozilla.org/firefox/releases/",recursive_walk=True, followlinks=True)
 repository.targets.add_targets(beta_targets)
 
-nightlyKeyFile = raw_input("Enter path to TARGETS password file: ")
-f = open(nightlyKeyFile)
-nightlyKey = f.readline()
+nightlyPassword = raw_input("Enter path to NIGHTLY password file: ")
 
-generate_and_write_rsa_keypair("keystore/nightly/nightly_key", bits=2048, password=nightlyKey)
+generate_and_write_rsa_keypair("keystore/nightly/nightly_key", bits=2048, password=nightlyPassword)
 public_nightly_key = import_rsa_publickey_from_file("keystore/nightly/nightly_key.pub")
 
 repository.targets.delegate("nightly", [public_nightly_key], [], 1, ["repository/targets/pub/mozilla.org/firefox/releases/"])
 
-private_nightly_key = import_rsa_privatekey_from_file("keystore/nightly/nightly_key", password=nightlyKey)
+private_nightly_key = import_rsa_privatekey_from_file("keystore/nightly/nightly_key", password=nightlyPassword)
 repository.targets.nightly.load_signing_key(private_nightly_key)
 
 nightly_targets = repository.get_filepaths_in_directory("repository/targets/pub/mozilla.org/firefox/nightly/",recursive_walk=True, followlinks=True) 
 repository.targets.nightly.add_targets(nightly_targets)
 
-private_targets_key = import_rsa_privatekey_from_file("keystore/targets/targets_key", password=targetsKey)
+private_targets_key = import_rsa_privatekey_from_file("keystore/targets/targets_key", password=targetsPassword)
 repository.targets.load_signing_key(private_targets_key)
 
-private_root_key =  import_rsa_privatekey_from_file("keystore/root_key", password=rootKey)
-private_root_key2 =  import_rsa_privatekey_from_file("keystore/root_key2", password=rootKey2)
-private_release_key =  import_rsa_privatekey_from_file("keystore/release/release_key", password=releaseKey)
-private_timestamp_key =  import_rsa_privatekey_from_file("keystore/timestamp/timestamp_key", password=timestampKey)
+private_root_key =  import_rsa_privatekey_from_file("keystore/root_key", password=rootPassword)
+private_root_key2 =  import_rsa_privatekey_from_file("keystore/root_key2", password=rootPassword2)
+private_release_key =  import_rsa_privatekey_from_file("keystore/release/release_key", password=releasePassword)
+private_timestamp_key =  import_rsa_privatekey_from_file("keystore/timestamp/timestamp_key", password=timestampPassword)
 
 repository.root.load_signing_key(private_root_key)
 repository.root.load_signing_key(private_root_key2)
