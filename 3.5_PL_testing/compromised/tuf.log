@@ -1,0 +1,453 @@
+[2013-12-03 22:05:00,858 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/root.txt)
+[2013-12-03 22:05:00,896 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets.txt)
+[2013-12-03 22:05:00,905 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/release.txt)
+[2013-12-03 22:05:00,909 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/timestamp.txt)
+[2013-12-03 22:05:00,914 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets/nightly.txt)
+[2013-12-03 22:05:08,723 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/root.txt)
+[2013-12-03 22:05:08,737 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets.txt)
+[2013-12-03 22:05:08,745 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/release.txt)
+[2013-12-03 22:05:08,749 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/timestamp.txt)
+[2013-12-03 22:05:08,754 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets/nightly.txt)
+[2013-12-03 22:05:35,195 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/root.txt)
+[2013-12-03 22:05:35,209 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets.txt)
+[2013-12-03 22:05:35,217 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/release.txt)
+[2013-12-03 22:05:35,222 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/timestamp.txt)
+[2013-12-03 22:05:35,226 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets/nightly.txt)
+[2013-12-03 22:05:39,566 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/root.txt)
+[2013-12-03 22:05:39,580 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets.txt)
+[2013-12-03 22:05:39,588 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/release.txt)
+[2013-12-03 22:05:39,593 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/timestamp.txt)
+[2013-12-03 22:05:39,597 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets/nightly.txt)
+[2013-12-03 22:08:03,106 UTC] [tuf.interposition] [DEBUG][debug:28@utility.py] Created temporary directory at /var/folders/6l/ty5kwkw50yg082zzb2cn6w0c0000gn/T/tmpftnrEG
+[2013-12-03 22:08:03,148 UTC] [tuf.interposition] [ERROR][exception:33@utility.py] Invalid configuration for mirror1.poly.edu!
+Traceback (most recent call last):
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/interposition/__init__.py", line 206, in __read_configuration
+    configuration_handler(configuration)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/interposition/updater.py", line 262, in add
+    self.__updaters[configuration.hostname] = Updater(configuration)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/interposition/updater.py", line 52, in __init__
+    self.configuration.repository_mirrors)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 299, in __init__
+    raise tuf.RepositoryError(message)
+RepositoryError: Missing u'client/metadata/current'.  This path must exist and, at a minimum, contain the root metadata file.
+[2013-12-03 22:08:03,150 UTC] [tuf.interposition] [ERROR][exception:33@utility.py] Invalid configuration in tuf.interposition.json!
+Traceback (most recent call last):
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/interposition/__init__.py", line 206, in __read_configuration
+    configuration_handler(configuration)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/interposition/updater.py", line 262, in add
+    self.__updaters[configuration.hostname] = Updater(configuration)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/interposition/updater.py", line 52, in __init__
+    self.configuration.repository_mirrors)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 299, in __init__
+    raise tuf.RepositoryError(message)
+RepositoryError: Missing u'client/metadata/current'.  This path must exist and, at a minimum, contain the root metadata file.
+[2013-12-03 22:08:20,954 UTC] [tuf.interposition] [DEBUG][debug:28@utility.py] Created temporary directory at /var/folders/6l/ty5kwkw50yg082zzb2cn6w0c0000gn/T/tmpYtLjJL
+[2013-12-03 22:08:20,955 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/current/root.txt)
+[2013-12-03 22:08:20,958 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/current/targets.txt)
+[2013-12-03 22:08:20,959 UTC] [tuf.client.updater] [DEBUG][_import_delegations:484@updater.py] Adding roles delegated from 'targets'.
+[2013-12-03 22:08:20,959 UTC] [tuf.client.updater] [DEBUG][_import_delegations:512@updater.py] Adding delegated role: targets/nightly.
+[2013-12-03 22:08:20,959 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/current/release.txt)
+[2013-12-03 22:08:20,960 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/current/timestamp.txt)
+[2013-12-03 22:08:20,960 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/previous/root.txt)
+[2013-12-03 22:08:20,960 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/previous/targets.txt)
+[2013-12-03 22:08:20,961 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/previous/release.txt)
+[2013-12-03 22:08:20,962 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/previous/timestamp.txt)
+[2013-12-03 22:08:20,963 UTC] [tuf.interposition] [INFO][info:38@utility.py] Updater added for Configuration(netloc=mirror1.poly.edu:80).
+[2013-12-03 22:08:25,411 UTC] [tuf.interposition] [INFO][info:38@utility.py] Found updater for hostname=mirror1.poly.edu
+[2013-12-03 22:08:25,411 UTC] [tuf.interposition] [INFO][info:38@utility.py] Interposing for http://mirror1.poly.edu/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml?force=1
+[2013-12-03 22:08:25,422 UTC] [tuf.download] [INFO][_download_file:726@download.py] Downloading: http://199.167.199.106/metadata/timestamp.txt
+[2013-12-03 22:08:25,493 UTC] [tuf.download] [WARNING][_check_content_length:589@download.py] reported_length (1189) < required_length (2048)
+[2013-12-03 22:08:25,493 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:08:25,494 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:08:25,494 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:501@download.py] Downloaded 1189/2048 bytes.
+[2013-12-03 22:08:25,494 UTC] [tuf.download] [WARNING][_check_downloaded_length:656@download.py] Downloaded 1189 bytes, but expected 2048 bytes. There is a difference of 859 bytes!
+[2013-12-03 22:08:25,494 UTC] [tuf.client.updater] [DEBUG][__get_file:1003@updater.py] Not decompressing http://199.167.199.106/metadata/timestamp.txt
+[2013-12-03 22:08:25,494 UTC] [tuf.client.updater] [DEBUG][__soft_check_compressed_file_length:703@updater.py] file length (1189) <= trusted length (2048)
+[2013-12-03 22:08:25,505 UTC] [tuf.client.updater] [DEBUG][_update_metadata:1158@updater.py] Updated u'/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/client/metadata/current/timestamp.txt'.
+[2013-12-03 22:08:25,505 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'release' referenced in 'timestamp'.  'release' may be updated.
+[2013-12-03 22:08:25,506 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1275@updater.py] Compressed version of 'release.txt' not available.
+[2013-12-03 22:08:25,506 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'root' referenced in 'release'.  'root' may be updated.
+[2013-12-03 22:08:25,506 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'targets' referenced in 'release'.  'targets' may be updated.
+[2013-12-03 22:08:25,506 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1275@updater.py] Compressed version of 'targets.txt' not available.
+[2013-12-03 22:08:25,516 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'targets' referenced in 'release'.  'targets' may be updated.
+[2013-12-03 22:08:25,516 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1275@updater.py] Compressed version of 'targets.txt' not available.
+[2013-12-03 22:08:25,517 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2221@updater.py] Asking role 'targets' about target 'update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml'
+[2013-12-03 22:08:25,517 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:08:25,517 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:08:25,517 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:08:25,517 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:08:25,517 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:08:25,517 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:08:25,517 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2224@updater.py] Found target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:08:25,517 UTC] [tuf.client.updater] [DEBUG][_preorder_depth_first_walk:2181@updater.py] Found target in current role 'targets'
+[2013-12-03 22:08:25,518 UTC] [tuf.download] [INFO][_download_file:726@download.py] Downloading: http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml
+[2013-12-03 22:08:25,529 UTC] [tuf.download] [WARNING][_check_content_length:589@download.py] reported_length (1018) < required_length (1032)
+[2013-12-03 22:08:25,529 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:08:25,530 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:08:25,530 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:501@download.py] Downloaded 1018/1032 bytes.
+[2013-12-03 22:08:25,530 UTC] [tuf.download] [ERROR][_check_downloaded_length:649@download.py] Downloaded 1018 bytes, but expected 1032 bytes. There is a difference of 14 bytes!
+[2013-12-03 22:08:25,530 UTC] [tuf.download] [ERROR][_download_file:765@download.py] Could not download URL: http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml
+Traceback (most recent call last):
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 760, in _download_file
+    STRICT_REQUIRED_LENGTH=STRICT_REQUIRED_LENGTH)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 650, in _check_downloaded_length
+    raise tuf.DownloadLengthMismatchError(required_length, total_downloaded)
+DownloadLengthMismatchError: Observed length (1018) <= expected length (1032)
+[2013-12-03 22:08:25,531 UTC] [tuf.client.updater] [ERROR][__get_file:1009@updater.py] Update failed from http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml.
+Traceback (most recent call last):
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 994, in __get_file
+    compressed_file_length)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 663, in safe_download
+    return _download_file(url, required_length, STRICT_REQUIRED_LENGTH=True)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 760, in _download_file
+    STRICT_REQUIRED_LENGTH=STRICT_REQUIRED_LENGTH)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 650, in _check_downloaded_length
+    raise tuf.DownloadLengthMismatchError(required_length, total_downloaded)
+DownloadLengthMismatchError: Observed length (1018) <= expected length (1032)
+[2013-12-03 22:08:25,532 UTC] [tuf.client.updater] [ERROR][__get_file:1019@updater.py] Failed to update update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml from all mirrors: {u'http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml': DownloadLengthMismatchError()}
+Traceback (most recent call last):
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 994, in __get_file
+    compressed_file_length)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 663, in safe_download
+    return _download_file(url, required_length, STRICT_REQUIRED_LENGTH=True)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 760, in _download_file
+    STRICT_REQUIRED_LENGTH=STRICT_REQUIRED_LENGTH)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 650, in _check_downloaded_length
+    raise tuf.DownloadLengthMismatchError(required_length, total_downloaded)
+DownloadLengthMismatchError: Observed length (1018) <= expected length (1032)
+[2013-12-03 22:09:31,243 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/root.txt)
+[2013-12-03 22:09:31,256 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets.txt)
+[2013-12-03 22:09:31,264 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/release.txt)
+[2013-12-03 22:09:31,269 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/timestamp.txt)
+[2013-12-03 22:09:31,273 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets/nightly.txt)
+[2013-12-03 22:09:45,334 UTC] [tuf.interposition] [DEBUG][debug:28@utility.py] Created temporary directory at /var/folders/6l/ty5kwkw50yg082zzb2cn6w0c0000gn/T/tmplXZxZG
+[2013-12-03 22:09:45,335 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/current/root.txt)
+[2013-12-03 22:09:45,338 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/current/targets.txt)
+[2013-12-03 22:09:45,339 UTC] [tuf.client.updater] [DEBUG][_import_delegations:484@updater.py] Adding roles delegated from 'targets'.
+[2013-12-03 22:09:45,339 UTC] [tuf.client.updater] [DEBUG][_import_delegations:512@updater.py] Adding delegated role: targets/nightly.
+[2013-12-03 22:09:45,339 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/current/release.txt)
+[2013-12-03 22:09:45,340 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/current/timestamp.txt)
+[2013-12-03 22:09:45,340 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/previous/root.txt)
+[2013-12-03 22:09:45,340 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/previous/targets.txt)
+[2013-12-03 22:09:45,341 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/previous/release.txt)
+[2013-12-03 22:09:45,342 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/previous/timestamp.txt)
+[2013-12-03 22:09:45,342 UTC] [tuf.interposition] [INFO][info:38@utility.py] Updater added for Configuration(netloc=mirror1.poly.edu:80).
+[2013-12-03 22:09:48,766 UTC] [tuf.interposition] [INFO][info:38@utility.py] Found updater for hostname=mirror1.poly.edu
+[2013-12-03 22:09:48,767 UTC] [tuf.interposition] [INFO][info:38@utility.py] Interposing for http://mirror1.poly.edu/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml?force=1
+[2013-12-03 22:09:48,777 UTC] [tuf.download] [INFO][_download_file:726@download.py] Downloading: http://199.167.199.106/metadata/timestamp.txt
+[2013-12-03 22:09:48,841 UTC] [tuf.download] [WARNING][_check_content_length:589@download.py] reported_length (1189) < required_length (2048)
+[2013-12-03 22:09:48,842 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:09:48,842 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:09:48,842 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:501@download.py] Downloaded 1189/2048 bytes.
+[2013-12-03 22:09:48,842 UTC] [tuf.download] [WARNING][_check_downloaded_length:656@download.py] Downloaded 1189 bytes, but expected 2048 bytes. There is a difference of 859 bytes!
+[2013-12-03 22:09:48,843 UTC] [tuf.client.updater] [DEBUG][__get_file:1003@updater.py] Not decompressing http://199.167.199.106/metadata/timestamp.txt
+[2013-12-03 22:09:48,843 UTC] [tuf.client.updater] [DEBUG][__soft_check_compressed_file_length:703@updater.py] file length (1189) <= trusted length (2048)
+[2013-12-03 22:09:48,853 UTC] [tuf.client.updater] [DEBUG][_update_metadata:1158@updater.py] Updated u'/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/client/metadata/current/timestamp.txt'.
+[2013-12-03 22:09:48,853 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'release' referenced in 'timestamp'.  'release' may be updated.
+[2013-12-03 22:09:48,853 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1275@updater.py] Compressed version of 'release.txt' not available.
+[2013-12-03 22:09:48,853 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'root' referenced in 'release'.  'root' may be updated.
+[2013-12-03 22:09:48,854 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'targets' referenced in 'release'.  'targets' may be updated.
+[2013-12-03 22:09:48,854 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1275@updater.py] Compressed version of 'targets.txt' not available.
+[2013-12-03 22:09:48,865 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'targets' referenced in 'release'.  'targets' may be updated.
+[2013-12-03 22:09:48,865 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1275@updater.py] Compressed version of 'targets.txt' not available.
+[2013-12-03 22:09:48,865 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2221@updater.py] Asking role 'targets' about target 'update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml'
+[2013-12-03 22:09:48,865 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:09:48,865 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:09:48,865 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:09:48,865 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:09:48,865 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:09:48,865 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:09:48,866 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2224@updater.py] Found target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:09:48,866 UTC] [tuf.client.updater] [DEBUG][_preorder_depth_first_walk:2181@updater.py] Found target in current role 'targets'
+[2013-12-03 22:09:48,866 UTC] [tuf.download] [INFO][_download_file:726@download.py] Downloading: http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml
+[2013-12-03 22:09:49,869 UTC] [tuf.download] [ERROR][_download_file:765@download.py] Could not download URL: http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml
+Traceback (most recent call last):
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 745, in _download_file
+    connection = _open_connection(url)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 443, in _open_connection
+    return opener.open(request)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 394, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 412, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 372, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1199, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1174, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+[2013-12-03 22:09:49,871 UTC] [tuf.client.updater] [ERROR][__get_file:1009@updater.py] Update failed from http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml.
+Traceback (most recent call last):
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 994, in __get_file
+    compressed_file_length)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 663, in safe_download
+    return _download_file(url, required_length, STRICT_REQUIRED_LENGTH=True)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 745, in _download_file
+    connection = _open_connection(url)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 443, in _open_connection
+    return opener.open(request)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 394, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 412, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 372, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1199, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1174, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+[2013-12-03 22:09:49,872 UTC] [tuf.client.updater] [ERROR][__get_file:1019@updater.py] Failed to update update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml from all mirrors: {u'http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml': URLError(timeout('timed out',),)}
+Traceback (most recent call last):
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 994, in __get_file
+    compressed_file_length)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 663, in safe_download
+    return _download_file(url, required_length, STRICT_REQUIRED_LENGTH=True)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 745, in _download_file
+    connection = _open_connection(url)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 443, in _open_connection
+    return opener.open(request)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 394, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 412, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 372, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1199, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1174, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+[2013-12-03 22:09:49,875 UTC] [tuf.interposition] [INFO][info:38@utility.py] Found updater for hostname=mirror1.poly.edu
+[2013-12-03 22:09:49,876 UTC] [tuf.interposition] [INFO][info:38@utility.py] Interposing for http://mirror1.poly.edu/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml?force=1
+[2013-12-03 22:09:49,876 UTC] [tuf.download] [INFO][_download_file:726@download.py] Downloading: http://199.167.199.106/metadata/timestamp.txt
+[2013-12-03 22:09:49,897 UTC] [tuf.download] [WARNING][_check_content_length:589@download.py] reported_length (1189) < required_length (2048)
+[2013-12-03 22:09:49,897 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:09:49,898 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:09:49,898 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:501@download.py] Downloaded 1189/2048 bytes.
+[2013-12-03 22:09:49,898 UTC] [tuf.download] [WARNING][_check_downloaded_length:656@download.py] Downloaded 1189 bytes, but expected 2048 bytes. There is a difference of 859 bytes!
+[2013-12-03 22:09:49,898 UTC] [tuf.client.updater] [DEBUG][__get_file:1003@updater.py] Not decompressing http://199.167.199.106/metadata/timestamp.txt
+[2013-12-03 22:09:49,898 UTC] [tuf.client.updater] [DEBUG][__soft_check_compressed_file_length:703@updater.py] file length (1189) <= trusted length (2048)
+[2013-12-03 22:09:49,903 UTC] [tuf.client.updater] [DEBUG][_update_metadata:1158@updater.py] Updated u'/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/client/metadata/current/timestamp.txt'.
+[2013-12-03 22:09:49,903 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'release' referenced in 'timestamp'.  'release' may be updated.
+[2013-12-03 22:09:49,903 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1275@updater.py] Compressed version of 'release.txt' not available.
+[2013-12-03 22:09:49,904 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'root' referenced in 'release'.  'root' may be updated.
+[2013-12-03 22:09:49,904 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'targets' referenced in 'release'.  'targets' may be updated.
+[2013-12-03 22:09:49,904 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1275@updater.py] Compressed version of 'targets.txt' not available.
+[2013-12-03 22:09:49,904 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'targets' referenced in 'release'.  'targets' may be updated.
+[2013-12-03 22:09:49,904 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1275@updater.py] Compressed version of 'targets.txt' not available.
+[2013-12-03 22:09:49,905 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2221@updater.py] Asking role 'targets' about target 'update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml'
+[2013-12-03 22:09:49,905 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:09:49,905 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:09:49,905 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:09:49,905 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:09:49,905 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:09:49,905 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:09:49,905 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2224@updater.py] Found target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:09:49,905 UTC] [tuf.client.updater] [DEBUG][_preorder_depth_first_walk:2181@updater.py] Found target in current role 'targets'
+[2013-12-03 22:09:49,906 UTC] [tuf.download] [INFO][_download_file:726@download.py] Downloading: http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml
+[2013-12-03 22:09:49,920 UTC] [tuf.download] [WARNING][_check_content_length:589@download.py] reported_length (1026) < required_length (1032)
+[2013-12-03 22:09:49,920 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:09:49,921 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:09:49,921 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:501@download.py] Downloaded 1026/1032 bytes.
+[2013-12-03 22:09:49,921 UTC] [tuf.download] [ERROR][_check_downloaded_length:649@download.py] Downloaded 1026 bytes, but expected 1032 bytes. There is a difference of 6 bytes!
+[2013-12-03 22:09:49,921 UTC] [tuf.download] [ERROR][_download_file:765@download.py] Could not download URL: http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml
+Traceback (most recent call last):
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 760, in _download_file
+    STRICT_REQUIRED_LENGTH=STRICT_REQUIRED_LENGTH)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 650, in _check_downloaded_length
+    raise tuf.DownloadLengthMismatchError(required_length, total_downloaded)
+DownloadLengthMismatchError: Observed length (1026) <= expected length (1032)
+[2013-12-03 22:09:49,922 UTC] [tuf.client.updater] [ERROR][__get_file:1009@updater.py] Update failed from http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml.
+Traceback (most recent call last):
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 994, in __get_file
+    compressed_file_length)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 663, in safe_download
+    return _download_file(url, required_length, STRICT_REQUIRED_LENGTH=True)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 760, in _download_file
+    STRICT_REQUIRED_LENGTH=STRICT_REQUIRED_LENGTH)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 650, in _check_downloaded_length
+    raise tuf.DownloadLengthMismatchError(required_length, total_downloaded)
+DownloadLengthMismatchError: Observed length (1026) <= expected length (1032)
+[2013-12-03 22:09:49,922 UTC] [tuf.client.updater] [ERROR][__get_file:1019@updater.py] Failed to update update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml from all mirrors: {u'http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml': DownloadLengthMismatchError()}
+Traceback (most recent call last):
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 994, in __get_file
+    compressed_file_length)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 663, in safe_download
+    return _download_file(url, required_length, STRICT_REQUIRED_LENGTH=True)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 760, in _download_file
+    STRICT_REQUIRED_LENGTH=STRICT_REQUIRED_LENGTH)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/download.py", line 650, in _check_downloaded_length
+    raise tuf.DownloadLengthMismatchError(required_length, total_downloaded)
+DownloadLengthMismatchError: Observed length (1026) <= expected length (1032)
+[2013-12-03 22:10:18,267 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/root.txt)
+[2013-12-03 22:10:18,281 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets.txt)
+[2013-12-03 22:10:18,289 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/release.txt)
+[2013-12-03 22:10:18,293 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/timestamp.txt)
+[2013-12-03 22:10:18,298 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets/nightly.txt)
+[2013-12-03 22:10:31,358 UTC] [tuf.interposition] [DEBUG][debug:28@utility.py] Created temporary directory at /var/folders/6l/ty5kwkw50yg082zzb2cn6w0c0000gn/T/tmpQ5y32_
+[2013-12-03 22:10:31,359 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/current/root.txt)
+[2013-12-03 22:10:31,362 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/current/targets.txt)
+[2013-12-03 22:10:31,362 UTC] [tuf.client.updater] [DEBUG][_import_delegations:484@updater.py] Adding roles delegated from 'targets'.
+[2013-12-03 22:10:31,363 UTC] [tuf.client.updater] [DEBUG][_import_delegations:512@updater.py] Adding delegated role: targets/nightly.
+[2013-12-03 22:10:31,363 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/current/release.txt)
+[2013-12-03 22:10:31,363 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/current/timestamp.txt)
+[2013-12-03 22:10:31,364 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/previous/root.txt)
+[2013-12-03 22:10:31,364 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/previous/targets.txt)
+[2013-12-03 22:10:31,365 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/previous/release.txt)
+[2013-12-03 22:10:31,365 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/previous/timestamp.txt)
+[2013-12-03 22:10:31,366 UTC] [tuf.interposition] [INFO][info:38@utility.py] Updater added for Configuration(netloc=mirror1.poly.edu:80).
+[2013-12-03 22:10:38,948 UTC] [tuf.interposition] [INFO][info:38@utility.py] Found updater for hostname=mirror1.poly.edu
+[2013-12-03 22:10:38,948 UTC] [tuf.interposition] [INFO][info:38@utility.py] Interposing for http://mirror1.poly.edu/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml?force=1
+[2013-12-03 22:10:38,959 UTC] [tuf.download] [INFO][_download_file:726@download.py] Downloading: http://199.167.199.106/metadata/timestamp.txt
+[2013-12-03 22:10:39,015 UTC] [tuf.download] [WARNING][_check_content_length:589@download.py] reported_length (1189) < required_length (2048)
+[2013-12-03 22:10:39,015 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:10:39,016 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:10:39,016 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:501@download.py] Downloaded 1189/2048 bytes.
+[2013-12-03 22:10:39,016 UTC] [tuf.download] [WARNING][_check_downloaded_length:656@download.py] Downloaded 1189 bytes, but expected 2048 bytes. There is a difference of 859 bytes!
+[2013-12-03 22:10:39,016 UTC] [tuf.client.updater] [DEBUG][__get_file:1003@updater.py] Not decompressing http://199.167.199.106/metadata/timestamp.txt
+[2013-12-03 22:10:39,016 UTC] [tuf.client.updater] [DEBUG][__soft_check_compressed_file_length:703@updater.py] file length (1189) <= trusted length (2048)
+[2013-12-03 22:10:39,024 UTC] [tuf.client.updater] [DEBUG][_update_metadata:1158@updater.py] Updated u'/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/client/metadata/current/timestamp.txt'.
+[2013-12-03 22:10:39,025 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'release' referenced in 'timestamp'.  'release' may be updated.
+[2013-12-03 22:10:39,025 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1275@updater.py] Compressed version of 'release.txt' not available.
+[2013-12-03 22:10:39,025 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'root' referenced in 'release'.  'root' may be updated.
+[2013-12-03 22:10:39,025 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'targets' referenced in 'release'.  'targets' may be updated.
+[2013-12-03 22:10:39,025 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1275@updater.py] Compressed version of 'targets.txt' not available.
+[2013-12-03 22:10:39,035 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'targets' referenced in 'release'.  'targets' may be updated.
+[2013-12-03 22:10:39,035 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1275@updater.py] Compressed version of 'targets.txt' not available.
+[2013-12-03 22:10:39,035 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2221@updater.py] Asking role 'targets' about target 'update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml'
+[2013-12-03 22:10:39,036 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:10:39,036 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:10:39,036 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:10:39,036 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:10:39,036 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:10:39,036 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:10:39,036 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2224@updater.py] Found target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:10:39,036 UTC] [tuf.client.updater] [DEBUG][_preorder_depth_first_walk:2181@updater.py] Found target in current role 'targets'
+[2013-12-03 22:10:39,037 UTC] [tuf.download] [INFO][_download_file:726@download.py] Downloading: http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml
+[2013-12-03 22:10:39,051 UTC] [tuf.download] [DEBUG][_check_content_length:595@download.py] reported_length (1032) == required_length (1032)
+[2013-12-03 22:10:39,051 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:10:39,051 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:10:39,051 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:501@download.py] Downloaded 1032/1032 bytes.
+[2013-12-03 22:10:39,051 UTC] [tuf.download] [DEBUG][_check_downloaded_length:638@download.py] total_downloaded == required_length == 1032
+[2013-12-03 22:10:39,051 UTC] [tuf.client.updater] [DEBUG][__get_file:1003@updater.py] Not decompressing http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml
+[2013-12-03 22:10:39,051 UTC] [tuf.client.updater] [DEBUG][__hard_check_compressed_file_length:664@updater.py] file length (1032) == trusted length (1032)
+[2013-12-03 22:10:39,052 UTC] [tuf.client.updater] [ERROR][__get_file:1009@updater.py] Update failed from http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml.
+Traceback (most recent call last):
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 1005, in __get_file
+    verify_uncompressed_file(file_object)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 745, in verify_uncompressed_target_file
+    self.__check_hashes(target_file_object, uncompressed_file_hashes)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 622, in __check_hashes
+    raise tuf.BadHashError(trusted_hash, computed_hash)
+BadHashError: Observed hash (f267bf832f19b8f0a23ed265fc1650b0f749170cb28179a86dc6ce619fa3bfd2) != expected hash (84d46b8266e5470d5519c4b0e262243da860789838d5e462404fc377e36d02cc)
+[2013-12-03 22:10:39,053 UTC] [tuf.client.updater] [ERROR][__get_file:1019@updater.py] Failed to update update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml from all mirrors: {u'http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml': BadHashError()}
+Traceback (most recent call last):
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 1005, in __get_file
+    verify_uncompressed_file(file_object)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 745, in verify_uncompressed_target_file
+    self.__check_hashes(target_file_object, uncompressed_file_hashes)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 622, in __check_hashes
+    raise tuf.BadHashError(trusted_hash, computed_hash)
+BadHashError: Observed hash (f267bf832f19b8f0a23ed265fc1650b0f749170cb28179a86dc6ce619fa3bfd2) != expected hash (84d46b8266e5470d5519c4b0e262243da860789838d5e462404fc377e36d02cc)
+[2013-12-03 22:12:31,248 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/root.txt)
+[2013-12-03 22:12:31,301 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets.txt)
+[2013-12-03 22:12:31,309 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/release.txt)
+[2013-12-03 22:12:31,314 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/timestamp.txt)
+[2013-12-03 22:12:31,318 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets/nightly.txt)
+[2013-12-03 22:12:49,209 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/root.txt)
+[2013-12-03 22:12:49,222 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets.txt)
+[2013-12-03 22:12:49,230 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/release.txt)
+[2013-12-03 22:12:49,235 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/timestamp.txt)
+[2013-12-03 22:12:49,240 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets/nightly.txt)
+[2013-12-03 22:14:19,267 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/root.txt)
+[2013-12-03 22:14:19,280 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets.txt)
+[2013-12-03 22:14:19,288 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/release.txt)
+[2013-12-03 22:14:19,293 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/timestamp.txt)
+[2013-12-03 22:14:19,297 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets/nightly.txt)
+[2013-12-03 22:15:13,190 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/root.txt)
+[2013-12-03 22:15:13,204 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets.txt)
+[2013-12-03 22:15:13,212 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/release.txt)
+[2013-12-03 22:15:13,217 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/timestamp.txt)
+[2013-12-03 22:15:13,222 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets/nightly.txt)
+[2013-12-03 22:16:05,691 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/root.txt)
+[2013-12-03 22:16:05,755 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets.txt)
+[2013-12-03 22:16:05,763 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/release.txt)
+[2013-12-03 22:16:05,768 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/timestamp.txt)
+[2013-12-03 22:16:05,773 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets/nightly.txt)
+[2013-12-03 22:16:32,500 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/root.txt)
+[2013-12-03 22:16:32,513 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets.txt)
+[2013-12-03 22:16:32,521 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/release.txt)
+[2013-12-03 22:16:32,526 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/timestamp.txt)
+[2013-12-03 22:16:32,531 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets/nightly.txt)
+[2013-12-03 22:17:29,430 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/root.txt)
+[2013-12-03 22:17:29,537 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets.txt)
+[2013-12-03 22:17:29,546 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/release.txt)
+[2013-12-03 22:17:29,550 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/timestamp.txt)
+[2013-12-03 22:17:29,555 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/repository/metadata.staged/targets/nightly.txt)
+[2013-12-03 22:17:42,600 UTC] [tuf.interposition] [DEBUG][debug:28@utility.py] Created temporary directory at /var/folders/6l/ty5kwkw50yg082zzb2cn6w0c0000gn/T/tmpk5E4oH
+[2013-12-03 22:17:42,601 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/current/root.txt)
+[2013-12-03 22:17:42,604 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/current/targets.txt)
+[2013-12-03 22:17:42,605 UTC] [tuf.client.updater] [DEBUG][_import_delegations:484@updater.py] Adding roles delegated from 'targets'.
+[2013-12-03 22:17:42,606 UTC] [tuf.client.updater] [DEBUG][_import_delegations:512@updater.py] Adding delegated role: targets/nightly.
+[2013-12-03 22:17:42,606 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/current/release.txt)
+[2013-12-03 22:17:42,606 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/current/timestamp.txt)
+[2013-12-03 22:17:42,630 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/previous/root.txt)
+[2013-12-03 22:17:42,631 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/previous/targets.txt)
+[2013-12-03 22:17:42,632 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/previous/release.txt)
+[2013-12-03 22:17:42,632 UTC] [tuf.util] [DEBUG][load_json_file:575@util.py] open(client/metadata/previous/timestamp.txt)
+[2013-12-03 22:17:42,633 UTC] [tuf.interposition] [INFO][info:38@utility.py] Updater added for Configuration(netloc=mirror1.poly.edu:80).
+[2013-12-03 22:17:50,780 UTC] [tuf.interposition] [INFO][info:38@utility.py] Found updater for hostname=mirror1.poly.edu
+[2013-12-03 22:17:50,781 UTC] [tuf.interposition] [INFO][info:38@utility.py] Interposing for http://mirror1.poly.edu/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml?force=1
+[2013-12-03 22:17:50,828 UTC] [tuf.download] [INFO][_download_file:726@download.py] Downloading: http://199.167.199.106/metadata/timestamp.txt
+[2013-12-03 22:17:50,900 UTC] [tuf.download] [WARNING][_check_content_length:589@download.py] reported_length (1189) < required_length (2048)
+[2013-12-03 22:17:50,900 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:17:50,901 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:17:50,901 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:501@download.py] Downloaded 1189/2048 bytes.
+[2013-12-03 22:17:50,901 UTC] [tuf.download] [WARNING][_check_downloaded_length:656@download.py] Downloaded 1189 bytes, but expected 2048 bytes. There is a difference of 859 bytes!
+[2013-12-03 22:17:50,901 UTC] [tuf.client.updater] [DEBUG][__get_file:1003@updater.py] Not decompressing http://199.167.199.106/metadata/timestamp.txt
+[2013-12-03 22:17:50,901 UTC] [tuf.client.updater] [DEBUG][__soft_check_compressed_file_length:703@updater.py] file length (1189) <= trusted length (2048)
+[2013-12-03 22:17:50,956 UTC] [tuf.client.updater] [DEBUG][_update_metadata:1158@updater.py] Updated u'/Users/patrick/Desktop/Firefox-TUF/3.5_PL_testing/compromised/client/metadata/current/timestamp.txt'.
+[2013-12-03 22:17:50,957 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'release' referenced in 'timestamp'.  'release' may be updated.
+[2013-12-03 22:17:50,957 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1275@updater.py] Compressed version of 'release.txt' not available.
+[2013-12-03 22:17:50,958 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'root' referenced in 'release'.  'root' may be updated.
+[2013-12-03 22:17:50,958 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'targets' referenced in 'release'.  'targets' may be updated.
+[2013-12-03 22:17:50,958 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1275@updater.py] Compressed version of 'targets.txt' not available.
+[2013-12-03 22:17:50,970 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1237@updater.py] 'targets' referenced in 'release'.  'targets' may be updated.
+[2013-12-03 22:17:50,970 UTC] [tuf.client.updater] [DEBUG][_update_metadata_if_changed:1275@updater.py] Compressed version of 'targets.txt' not available.
+[2013-12-03 22:17:50,970 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2221@updater.py] Asking role 'targets' about target 'update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml'
+[2013-12-03 22:17:50,970 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:17:50,971 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:17:50,971 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:17:50,971 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:17:50,971 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:17:50,971 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2228@updater.py] No target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:17:50,971 UTC] [tuf.client.updater] [DEBUG][_get_target_from_targets_role:2224@updater.py] Found target update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml in role targets
+[2013-12-03 22:17:50,971 UTC] [tuf.client.updater] [DEBUG][_preorder_depth_first_walk:2181@updater.py] Found target in current role 'targets'
+[2013-12-03 22:17:50,971 UTC] [tuf.download] [INFO][_download_file:726@download.py] Downloading: http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml
+[2013-12-03 22:17:50,981 UTC] [tuf.download] [DEBUG][_check_content_length:595@download.py] reported_length (1032) == required_length (1032)
+[2013-12-03 22:17:50,981 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:17:50,981 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:494@download.py] Reading next chunk...
+[2013-12-03 22:17:50,981 UTC] [tuf.download] [DEBUG][_download_fixed_amount_of_data:501@download.py] Downloaded 1032/1032 bytes.
+[2013-12-03 22:17:50,981 UTC] [tuf.download] [DEBUG][_check_downloaded_length:638@download.py] total_downloaded == required_length == 1032
+[2013-12-03 22:17:50,982 UTC] [tuf.client.updater] [DEBUG][__get_file:1003@updater.py] Not decompressing http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml
+[2013-12-03 22:17:50,982 UTC] [tuf.client.updater] [DEBUG][__hard_check_compressed_file_length:664@updater.py] file length (1032) == trusted length (1032)
+[2013-12-03 22:17:50,982 UTC] [tuf.client.updater] [ERROR][__get_file:1009@updater.py] Update failed from http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml.
+Traceback (most recent call last):
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 1005, in __get_file
+    verify_uncompressed_file(file_object)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 745, in verify_uncompressed_target_file
+    self.__check_hashes(target_file_object, uncompressed_file_hashes)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 622, in __check_hashes
+    raise tuf.BadHashError(trusted_hash, computed_hash)
+BadHashError: Observed hash (f267bf832f19b8f0a23ed265fc1650b0f749170cb28179a86dc6ce619fa3bfd2) != expected hash (84d46b8266e5470d5519c4b0e262243da860789838d5e462404fc377e36d02cc)
+[2013-12-03 22:17:50,984 UTC] [tuf.client.updater] [ERROR][__get_file:1019@updater.py] Failed to update update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml from all mirrors: {u'http://199.167.199.106/targets/update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin%2011.4.2/default/default/update.xml': BadHashError()}
+Traceback (most recent call last):
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 1005, in __get_file
+    verify_uncompressed_file(file_object)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 745, in verify_uncompressed_target_file
+    self.__check_hashes(target_file_object, uncompressed_file_hashes)
+  File "/Users/patrick/assignment3.3/lib/python2.7/site-packages/tuf/client/updater.py", line 622, in __check_hashes
+    raise tuf.BadHashError(trusted_hash, computed_hash)
+BadHashError: Observed hash (f267bf832f19b8f0a23ed265fc1650b0f749170cb28179a86dc6ce619fa3bfd2) != expected hash (84d46b8266e5470d5519c4b0e262243da860789838d5e462404fc377e36d02cc)

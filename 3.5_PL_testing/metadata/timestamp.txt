@@ -1,0 +1,16 @@
+{
+ "signatures": [], 
+ "signed": {
+  "_type": "Timestamp", 
+  "expires": "2014-01-14 16:33:15 UTC", 
+  "meta": {
+   "release.txt": {
+    "hashes": {
+     "sha256": "66ac451a934abbfe479e46613005650e41778b7ae54634111cbf4053ac198e45"
+    }, 
+    "length": 596
+   }
+  }, 
+  "version": 2
+ }
+}

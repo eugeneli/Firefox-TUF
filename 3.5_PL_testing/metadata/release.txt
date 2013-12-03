@@ -1,0 +1,28 @@
+{
+ "signatures": [], 
+ "signed": {
+  "_type": "Release", 
+  "expires": "2013-12-10 21:33:10 UTC", 
+  "meta": {
+   "root.txt": {
+    "hashes": {
+     "sha256": "6632513c8f962cca69b7b444b0dea9e9134a783303efcc5d5c0c5e899577e7a5"
+    }, 
+    "length": 5700
+   }, 
+   "targets.txt": {
+    "hashes": {
+     "sha256": "58c56cbb2b047aed19875e13e74272454ff8d458838d12c36c8f33a215d72f41"
+    }, 
+    "length": 6883
+   }, 
+   "targets/nightly.txt": {
+    "hashes": {
+     "sha256": "d575067698b6230a73240e2c45fecf3d7e70b1da14e0ac358e924244138a151b"
+    }, 
+    "length": 2403
+   }
+  }, 
+  "version": 2
+ }
+}
