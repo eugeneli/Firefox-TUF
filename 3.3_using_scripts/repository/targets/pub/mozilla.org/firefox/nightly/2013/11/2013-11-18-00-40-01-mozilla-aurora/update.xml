@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<updates>
-    <update type="minor" displayVersion="27.0a2" appVersion="27.0a2" platformVersion="27.0a2" buildID="20131118004001">
-        <patch type="complete" URL="http://127.0.0.1:8080/pub/mozilla.org/firefox/nightly/2013/11/2013-11-18-00-40-01-mozilla-aurora/firefox-27.0a2.en-US.linux-i686.complete.mar" hashFunction="sha512" hashValue="bcff091f32a968e57fdfa34f24bfc3d16e823af80f704289bffcc8dc74363ff4fdac4fceeb8469c0b60fa33c4d72880c6e8342a7676afd64384a43d586a81a5b" size="35191886"/>
-    </update>
-</updates>

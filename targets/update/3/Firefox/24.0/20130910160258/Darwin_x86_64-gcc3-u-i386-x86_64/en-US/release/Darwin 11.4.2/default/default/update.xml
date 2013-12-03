@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<updates>
+    <update type="minor" displayVersion="25.0.1" appVersion="25.0.1" platformVersion="25.0.1" buildID="20131112160018" detailsURL="https://www.mozilla.com/en-US/firefox/25.0.1/releasenotes/" actions="silent">
+        <patch type="complete" URL="http://download.mozilla.org/?product=firefox-25.0.1-complete&amp;os=osx&amp;lang=en-US&amp;force=1" hashFunction="SHA512" hashValue="e04e088c76947ff1fb1048f32a69b4e0b57eb3bb1b4f44163d7dd212bdcf759cb416dced1a76ddc37d6433affc3bfb8713d2fa1f0a166118d1f58ccd16ca658a" size="45425773"/>
+        <patch type="partial" URL="http://download.mozilla.org/?product=firefox-25.0.1-partial-24.0&amp;os=osx&amp;lang=en-US&amp;force=1" hashFunction="SHA512" hashValue="55943d3a27f9d542dd4e5ceebb89971747c261c20a2985e96b199a0fbec3e273df6d79ad8723f287af45cad6ff160805649412f55bdd612c0c31ef0c178eae6c" size="23546819"/>
+    </update>
+</updates>
