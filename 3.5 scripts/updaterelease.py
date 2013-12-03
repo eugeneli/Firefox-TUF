@@ -3,7 +3,7 @@ import distutils.core
 
 repository = load_repository("repository/")
 
-targetsPassword = raw_input("Enter path to TARGETS password file: ")
+targetsPassword = raw_input("Enter TARGETS password: ")
 private_targets_key = import_rsa_privatekey_from_file("keystore/targets/targets_key", password=targetsPassword)
 repository.targets.load_signing_key(private_targets_key)
 
