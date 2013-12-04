@@ -30,6 +30,12 @@ The Slow Retrival Snapshots directory containst the snapshots taken for windows 
 
 The Firefox_bin directory contains the base binaries for firefox under ubuntu and windows.  They need to be installed prior to attempting updates.
 
+The Endless Data Program directory contains the program that causes firefox to eat up memory and suffer an endless data attack.
+
+Tuf Fixes contains instructions on updating TUF tools for the current version.  If the tools change, then the local fixes in the specified files must be applied.
+
+
+
 
 
 
