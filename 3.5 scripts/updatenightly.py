@@ -34,7 +34,7 @@ if len(sys.argv) == 4:
 	repository.targets.nightly.add_targets(nightly_targets)
 	#repository.targets.nightly.version = repository.targets.nightly.version + 1
 
-	repository.write
+	repository.write()
 
 	# copy subdirectory example
 	stagedMetadata = "repository/metadata.staged"

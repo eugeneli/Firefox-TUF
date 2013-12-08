@@ -9,24 +9,24 @@ settings = f.readlines()
 f.close()
 
 for line in settings:
-	kvPair = line.split("=", 1)
+	kvPair = line.strip().split("=", 1)
 	if kvPair[0] == "RootPassword1":
-		rootPassword = kvPair[1]
+		rootPassword = open(kvPair[1]).readline()
 		pwdCount = pwdCount + 1
 	elif kvPair[0] == "RootPassword2":
-		rootPassword2 = kvPair[1]
+		rootPassword2 = open(kvPair[1]).readline()
 		pwdCount = pwdCount + 1
 	elif kvPair[0] == "TargetsPassword":
-		targetsPassword = kvPair[1]
+		targetsPassword = open(kvPair[1]).readline()
 		pwdCount = pwdCount + 1
 	elif kvPair[0] == "ReleasePassword":
-		releasePassword = kvPair[1]
+		releasePassword = open(kvPair[1]).readline()
 		pwdCount = pwdCount + 1
 	elif kvPair[0] == "TimestampPassword":
-		timestampPassword = kvPair[1]
+		timestampPassword = open(kvPair[1]).readline()
 		pwdCount = pwdCount + 1
 	elif kvPair[0] == "NightlyPassword":
-		nightlyPassword = kvPair[1]
+		nightlyPassword = open(kvPair[1]).readline()
 		pwdCount = pwdCount + 1
 
 if pwdCount != 6:
@@ -79,8 +79,6 @@ release_targets = repository.get_filepaths_in_directory("repository/targets/upda
 repository.targets.add_targets(release_targets)
 beta_targets = repository.get_filepaths_in_directory("repository/targets/pub/mozilla.org/firefox/releases/",recursive_walk=True, followlinks=True)
 repository.targets.add_targets(beta_targets)
-
-nightlyPassword = raw_input("Enter the NIGHTLY password: ")
 
 generate_and_write_rsa_keypair("keystore/nightly/nightly_key", bits=2048, password=nightlyPassword)
 public_nightly_key = import_rsa_publickey_from_file("keystore/nightly/nightly_key.pub")
