@@ -2,9 +2,35 @@ from tuf.libtuf import *
 import datetime
 import distutils.core
 
-#Get passwords for root
-rootPassword = raw_input("Enter the first root password: ")
-rootPassword2 = raw_input("Enter the second root password: ")
+pwdCount = 0
+#Open settings file to get paths for all passwords
+f = open("settings.txt")
+settings = f.readlines()
+f.close()
+
+for line in settings:
+	kvPair = line.split("=", 1)
+	if kvPair[0] == "RootPassword1":
+		rootPassword = kvPair[1]
+		pwdCount = pwdCount + 1
+	elif kvPair[0] == "RootPassword2":
+		rootPassword2 = kvPair[1]
+		pwdCount = pwdCount + 1
+	elif kvPair[0] == "TargetsPassword":
+		targetsPassword = kvPair[1]
+		pwdCount = pwdCount + 1
+	elif kvPair[0] == "ReleasePassword":
+		releasePassword = kvPair[1]
+		pwdCount = pwdCount + 1
+	elif kvPair[0] == "TimestampPassword":
+		timestampPassword = kvPair[1]
+		pwdCount = pwdCount + 1
+	elif kvPair[0] == "NightlyPassword":
+		nightlyPassword = kvPair[1]
+		pwdCount = pwdCount + 1
+
+if pwdCount != 6:
+	raise Exception("Not enough passwords supplied")
 
 #Generate root keys
 generate_and_write_rsa_keypair("keystore/root_key", bits=2048, password=rootPassword)
@@ -26,11 +52,6 @@ repository.root.load_signing_key(private_root_key)
 repository.root.load_signing_key(private_root_key2)
 repository.status()
 
-#Get password for targets, release, timestamp
-targetsPassword = raw_input("Enter the TARGETS password: ")
-releasePassword = raw_input("Enter RELEASE password: ")
-timestampPassword = raw_input("Enter the TIMESTAMP password: ")
-
 generate_and_write_rsa_keypair("keystore/targets/targets_key", password=targetsPassword)
 generate_and_write_rsa_keypair("keystore/release/release_key", password=releasePassword)
 generate_and_write_rsa_keypair("keystore/timestamp/timestamp_key", password=timestampPassword)
@@ -48,8 +69,8 @@ repository.release.load_signing_key(private_release_key)
 repository.timestamp.load_signing_key(private_timestamp_key)
 
 #Expiration = 6 weeks from now
-expirationDate = datetime.datetime.now() + datetime.timedelta(days=42)
-repository.timestamp.expiration = expirationDate.strftime("%Y-%m-%d %H:%M:%S")
+#expirationDate = datetime.datetime.now() + datetime.timedelta(days=42)
+#repository.timestamp.expiration = expirationDate.strftime("%Y-%m-%d %H:%M:%S")
 
 repository.write()
 

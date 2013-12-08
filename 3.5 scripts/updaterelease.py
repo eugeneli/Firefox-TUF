@@ -6,11 +6,11 @@ repository = load_repository("repository/")
 
 if len(sys.argv) == 4:
 	releaseKeyFile = sys.argv[1]
-	f = open(targetsKeyFile)
+	f = open(releaseKeyFile)
 	releasePassword = f.readline()
 
 	timestampKeyFile = sys.argv[2]
-	f = open(targetsKeyFile)
+	f = open(timestampKeyFile)
 	timestampPassword = f.readline()
 
 	targetsKeyFile = sys.argv[3]

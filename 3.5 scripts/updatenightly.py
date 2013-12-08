@@ -6,15 +6,15 @@ repository = load_repository("repository/")
 
 if len(sys.argv) == 4:
 	releaseKeyFile = sys.argv[1]
-	f = open(targetsKeyFile)
+	f = open(releaseKeyFile)
 	releasePassword = f.readline()
 
 	timestampKeyFile = sys.argv[2]
-	f = open(targetsKeyFile)
+	f = open(timestampKeyFile)
 	timestampPassword = f.readline()
 
 	nightlyKeyFile = sys.argv[3]
-	f = open(targetsKeyFile)
+	f = open(nightlyKeyFile)
 	nightlyPassword = f.readline()
 
 	private_release_key = import_rsa_privatekey_from_file("keystore/release/release_key", password=releasePassword)
