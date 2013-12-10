@@ -1,0 +1,6 @@
+RootPassword1=pwd
+RootPassword2=pwd
+TargetsPassword=pwd
+ReleasePassword=pwd
+TimestampPassword=pwd
+NightlyPassword=pwd
