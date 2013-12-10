@@ -4,7 +4,7 @@
       "repository_directory": "client/",
        "repository_mirrors" : {
         "mirror1": {
-          "url_prefix": "http://199.167.199.106",
+          "url_prefix": "http://www.myfirefoxtufrepo.com",
           "metadata_path": "metadata",
           "targets_path": "targets",
           "confined_target_dirs": [ "" ]
