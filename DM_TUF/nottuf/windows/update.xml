@@ -1,6 +1,0 @@
-<updates>
-    <update type="minor" displayVersion="25.0" appVersion="25.0" platformVersion="25.0" buildID="20131025151332" detailsURL="https://www.mozilla.com/en-US/firefox/25.0/releasenotes/" actions="silent">
-        <patch type="complete" URL="http://128.238.64.154:8000/nottuf/windows/firefox-25.0.complete.mar" hashFunction="SHA512" hashValue="4ad390e1da88c23f45ac079edc90f104d9759897e09aec815eb177a7a7ba7b3212de3811175c29cca956f1687251435c8674e2fd98024eafa205f47decd08fad" size="28645293"/>
-        <patch type="partial" URL="http://128.238.64.154:8000/nottuf/windows/firefox-24.0-25.0.partial.mar" hashFunction="SHA512" hashValue="60f13dc7ef8b6df455a56d6de57e6e3317345049a921bfb188645be65ecde93afb9408133304389251c6cf44151f844b47fbecc9e7573e48185820769babe893" size="12524778"/>
-    </update>
-</updates>

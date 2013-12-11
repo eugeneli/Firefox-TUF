@@ -1,6 +1,0 @@
-<updates>
-    <update type="minor" displayVersion="25.0" appVersion="25.0" platformVersion="25.0" buildID="20131025151332" detailsURL="https://www.mozilla.com/en-US/firefox/25.0/releasenotes/" actions="silent">
-        <patch type="complete" URL="http://128.238.64.154:8000/nottuf/ubuntu/firefox-25.0.complete.mar" hashFunction="SHA512" hashValue="a3150f6a4fb52727b38bcf6187e73d07271378541807184b50c605063d2f8e35cb6ee721e1435dbeecae57fde150ad1a39c708b3c64334a781a9addb08489a2f" size="29023138"/>
-        <patch type="partial" URL="http://128.238.64.154:8000/nottuf/ubuntu/firefox-24.0-25.0.partial.mar" hashFunction="SHA512" hashValue="e1dcab455ef32f36aa1393b3bb3a850094f80f664c948a3aea85deafc580dd88ba0fc483876f9d56069eed9a0b6153032542e52179f29f5a349203aea3a85557" size="13778002"/>
-    </update>
-</updates>
