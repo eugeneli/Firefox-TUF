@@ -1,0 +1,3 @@
+This directory contains TUF repository server and client configuration files with associated directories. 
+
+The TUF repository 'tuf' sat on remote test server (tuf.redowl.net) which was served under Apache.
