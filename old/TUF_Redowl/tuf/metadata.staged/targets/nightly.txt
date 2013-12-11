@@ -1,0 +1,56 @@
+{
+ "signatures": [
+  {
+   "keyid": "61ca28444339a5710d190f4339144aa272198bb6846ff1bf3b439f191c6fc1d4", 
+   "method": "RSASSA-PSS", 
+   "sig": "543672edd20738cd29bc2484f44c0c6e83567fa5e3a0d59a9469a7e28741a724709354a1b2fabfbd0ed85b0e78c9c44132049d27bfd60e5b3f372413cae84efcbfecd8e3b9a7f59421f523b3058bd17787beeb31421ae4b68ae294095f04dea9defa13679e76bba012a5a8dea38a6020669470130f9e7b8a4e632c915fa5898c08fc406b6a744a51e295ce8c43a4d966b436c1c458c28697f4332b7da10dbe5b632be2bda2fe904dbc68d729602785752637758b44f91536615fa58e7c82cd9b6c10e4d2428e4fd77fa43ab78d5ffb2d1f1112a7fbd77e0a9b18afa36b4d471d5e0d7b89579afd732519965bbcf0a9b29418c8ab34b11bb45ddab3dfa9c54ebf"
+  }
+ ], 
+ "signed": {
+  "_type": "Targets", 
+  "delegations": {
+   "keys": {}, 
+   "roles": []
+  }, 
+  "expires": "2014-03-04 16:19:17 UTC", 
+  "targets": {
+   "pub/mozilla.org/firefox/nightly/2013/11/2013-11-18-00-40-01-mozilla-aurora/firefox-27.0a2.en-US.linux-i686.complete.mar": {
+    "hashes": {
+     "sha256": "6f1585d1e7d581ab443373e9f56e5dab422f0f14c2bfe0cff991e38a0cb8b4cc"
+    }, 
+    "length": 35191886
+   }, 
+   "pub/mozilla.org/firefox/nightly/2013/11/2013-11-18-00-40-01-mozilla-aurora/firefox-27.0a2.en-US.linux-i686.partial.20131117004001-20131118004001.mar": {
+    "hashes": {
+     "sha256": "5bf80d54c1d2028646c9ee2d505dcddb514d0a2c51961b9ecea5af29f33d3697"
+    }, 
+    "length": 4151030
+   }, 
+   "pub/mozilla.org/firefox/nightly/2013/11/2013-11-18-00-40-01-mozilla-aurora/update.xml": {
+    "hashes": {
+     "sha256": "1d1e0c2bade686fe8ea964d0b676b0fbe49929a41f82ec666b63643e5f9589da"
+    }, 
+    "length": 553
+   }, 
+   "pub/mozilla.org/firefox/nightly/2013/11/2013-11-18-09-41-34-mozilla-central/firefox-28.0a1.en-US.linux-i686.complete.mar": {
+    "hashes": {
+     "sha256": "8cc9bbfb2dfb56e41fdc4ffdd0d841039fb6f4443be385347d127b18fdb9d9d2"
+    }, 
+    "length": 39922959
+   }, 
+   "pub/mozilla.org/firefox/nightly/2013/11/2013-11-18-09-41-34-mozilla-central/firefox-28.0a1.en-US.linux-i686.partial.20131118030203-20131118094134.mar": {
+    "hashes": {
+     "sha256": "ee773558ae354b04571bf58966ce54a3f25ef92cdb10532b79481aacf64e4a68"
+    }, 
+    "length": 5360864
+   }, 
+   "pub/mozilla.org/firefox/nightly/2013/11/2013-11-18-09-41-34-mozilla-central/update.xml": {
+    "hashes": {
+     "sha256": "9e8130f0f03c2cb1e8f813d2112c18e6babb29f8ddecad0eda90ba6bd9b6299e"
+    }, 
+    "length": 528
+   }
+  }, 
+  "version": 0
+ }
+}

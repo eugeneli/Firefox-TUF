@@ -1,0 +1,34 @@
+{
+ "signatures": [
+  {
+   "keyid": "0e648b8798d92f958e3f7f23c7c774beff272ee13b387271abc273e9a38f9e08", 
+   "method": "RSASSA-PSS", 
+   "sig": "61659fe08c50dd2c7009a008ae0c962cb17339f7bc2e13636bd9f86d4444bc09579a185f03cf443c2828885358dad009fc92fceafa62d6d0c68966d1d643e8e37fa4bde90e31f9bbb751eaff4ff5055b606fa797ce6c6ee7408853e952838987c5fa6978fda432d0c9d2bc04e29b71bca26de0f60de398715ed086d3dd6722ef6331426ef00bcfd044cb932a085fd55fda63f202fff874f4a5e4ae6b9054a98cf0e6ec0cb8820d43667a937bb5082601b2b21fcfdd89b4ab5022039afb6080da613ea698652e6e5bddd92213ed0dd5cdd02fc85f5ff1e4d4acca203091eccab0a47f30e41118369e0245a58e1cfbfa130f8046fc98cfe7fa32813184352086fa9c541c6dbf01dacbede2f4a4ec6ddc4332057eede3b4f2aaf99c407f0074b19a16a517a52ec7d420176ca9a48621722b83749b0a7efbb64367ed50ce662379292d520cd51ec13fad177a04ff8a9abc73f10270d3084a6c0a39a980137d4e633a2603417409d263cc17847f0fb4f1a2d49782a30240f919944e03f6f11d155eb0"
+  }
+ ], 
+ "signed": {
+  "_type": "Release", 
+  "expires": "2013-12-10 08:47:23 UTC", 
+  "meta": {
+   "root.txt": {
+    "hashes": {
+     "sha256": "9439d4cd5b07f35491d0d696f13c4c2b646ff0e41ed05641999c9b41961472e1"
+    }, 
+    "length": 6344
+   }, 
+   "targets.txt": {
+    "hashes": {
+     "sha256": "47dcc83607c86f7816625ae913bcc401b847e3800f8ee0f39232dcfd2546ad7d"
+    }, 
+    "length": 8483
+   }, 
+   "targets/nightly.txt": {
+    "hashes": {
+     "sha256": "ac03291bb268479b91624ba67dff9793e12a4b484cda9d280f49bce55e807e3a"
+    }, 
+    "length": 2403
+   }
+  }, 
+  "version": 2
+ }
+}
