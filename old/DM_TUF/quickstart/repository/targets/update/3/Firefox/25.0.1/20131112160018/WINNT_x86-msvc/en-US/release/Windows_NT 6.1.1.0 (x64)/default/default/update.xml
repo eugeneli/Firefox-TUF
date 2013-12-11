@@ -1,8 +1,0 @@
-<updates>
-    <update type="minor" displayVersion="26.0" appVersion="26.0" platformVersion="26.0" buildID="20131205075310" detailsURL="https://www.mozilla.com/en-US/firefox/26.0/releasenotes/" actions="silent">
-        <patch type="complete" URL="http://127.0.0.1:8080/update/3/Firefox/25.0.1/20131112160018/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/firefox-26.0.complete.mar" hashFunction="SHA512"
-        hashValue="b2514c67f67d3e5e97aacc35e19a5f026e7b2c18df40fe232cdbf0bbd79e656fdacf7bcc1ffca72ef3c30b0f4af4a83b570c282794a8d7020fabef84adad52d6" size="29402842"/>
-        <patch type="partial" URL="http://127.0.0.1:8080/update/3/Firefox/25.0.1/20131112160018/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/firefox-25.0.1-26.0.partial.mar" hashFunction="SHA512"
-        hashValue="723d9d925dfbb4a66cfe7573f1a77ef898c26910bcadd926d0009ca4644c791a3f310b31bb224f84c4d2aabf4f9845fe5728ee9a5c725cb87d07feadaf6e9f24" size="13500699"/>
-    </update>
-</updates>

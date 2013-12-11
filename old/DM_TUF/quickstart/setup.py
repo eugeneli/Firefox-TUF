@@ -2,35 +2,9 @@ from tuf.libtuf import *
 import datetime
 import distutils.core
 
-pwdCount = 0
-#Open settings file to get paths for all passwords
-f = open("settings.txt")
-settings = f.readlines()
-f.close()
-
-for line in settings:
-	kvPair = line.strip().split("=", 1)
-	if kvPair[0] == "RootPassword1":
-		rootPassword = open(kvPair[1]).readline()
-		pwdCount = pwdCount + 1
-	elif kvPair[0] == "RootPassword2":
-		rootPassword2 = open(kvPair[1]).readline()
-		pwdCount = pwdCount + 1
-	elif kvPair[0] == "TargetsPassword":
-		targetsPassword = open(kvPair[1]).readline()
-		pwdCount = pwdCount + 1
-	elif kvPair[0] == "ReleasePassword":
-		releasePassword = open(kvPair[1]).readline()
-		pwdCount = pwdCount + 1
-	elif kvPair[0] == "TimestampPassword":
-		timestampPassword = open(kvPair[1]).readline()
-		pwdCount = pwdCount + 1
-	elif kvPair[0] == "NightlyPassword":
-		nightlyPassword = open(kvPair[1]).readline()
-		pwdCount = pwdCount + 1
-
-if pwdCount != 6:
-	raise Exception("Not enough passwords supplied")
+#Get passwords for root
+rootPassword = raw_input("Enter the first root password: ")
+rootPassword2 = raw_input("Enter the second root password: ")
 
 #Generate root keys
 generate_and_write_rsa_keypair("keystore/root_key", bits=2048, password=rootPassword)
@@ -52,6 +26,11 @@ repository.root.load_signing_key(private_root_key)
 repository.root.load_signing_key(private_root_key2)
 repository.status()
 
+#Get password for targets, release, timestamp
+targetsPassword = raw_input("Enter the TARGETS password: ")
+releasePassword = raw_input("Enter RELEASE password: ")
+timestampPassword = raw_input("Enter the TIMESTAMP password: ")
+
 generate_and_write_rsa_keypair("keystore/targets/targets_key", password=targetsPassword)
 generate_and_write_rsa_keypair("keystore/release/release_key", password=releasePassword)
 generate_and_write_rsa_keypair("keystore/timestamp/timestamp_key", password=timestampPassword)
@@ -69,8 +48,8 @@ repository.release.load_signing_key(private_release_key)
 repository.timestamp.load_signing_key(private_timestamp_key)
 
 #Expiration = 6 weeks from now
-#expirationDate = datetime.datetime.now() + datetime.timedelta(days=42)
-#repository.timestamp.expiration = expirationDate.strftime("%Y-%m-%d %H:%M:%S")
+expirationDate = datetime.datetime.now() + datetime.timedelta(days=42)
+repository.timestamp.expiration = expirationDate.strftime("%Y-%m-%d %H:%M:%S")
 
 repository.write()
 
@@ -79,6 +58,8 @@ release_targets = repository.get_filepaths_in_directory("repository/targets/upda
 repository.targets.add_targets(release_targets)
 beta_targets = repository.get_filepaths_in_directory("repository/targets/pub/mozilla.org/firefox/releases/",recursive_walk=True, followlinks=True)
 repository.targets.add_targets(beta_targets)
+
+nightlyPassword = raw_input("Enter the NIGHTLY password: ")
 
 generate_and_write_rsa_keypair("keystore/nightly/nightly_key", bits=2048, password=nightlyPassword)
 public_nightly_key = import_rsa_publickey_from_file("keystore/nightly/nightly_key.pub")

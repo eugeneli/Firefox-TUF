@@ -51,10 +51,12 @@ server {
 
 
 server {
+	#listen   80; ## listen for ipv4; this line is default and implied
+	#listen   [::]:80 default ipv6only=on; ## listen for ipv6
 
 	listen 8080;
 
-	root /home/dennismirante/appsec/TUF/quickstart/repository/;
+	root /home/dennismirante/appsec/TUF/quickstart2/repository/;
 	autoindex on;
 	index index.html index.htm;
 
@@ -62,7 +64,7 @@ server {
 	server_name localhost;
 
         # following statement sets download rate for slow retrieval tests
-        set $limit_rate 20;
+        set $limit_rate 10;
 
 	location / {
 		# First attempt to serve request as file, then
@@ -83,6 +85,21 @@ server {
 }
 
 
+# another virtual host using mix of IP-, name-, and port-based configuration
+#
+#server {
+#	listen 8000;
+#	listen somename:8080;
+#	server_name somename alias another.alias;
+#	root html;
+#	index index.html index.htm;
+#
+#	location / {
+#		try_files $uri $uri/ /index.html;
+#	}
+#}
+
+
 server {
         listen 8000;
 
@@ -94,7 +111,7 @@ server {
 	server_name localhost;
 
         # following statement sets download rate for slow retrieval tests
-        set $limit_rate 20;
+        #set $limit_rate 1;
 
 	location / {
 		# First attempt to serve request as file, then
