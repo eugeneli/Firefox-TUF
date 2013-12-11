@@ -1,0 +1,8 @@
+<updates>
+    <update type="minor" displayVersion="26.0" appVersion="26.0" platformVersion="26.0" buildID="20131205075310" detailsURL="https://www.mozilla.com/en-US/firefox/26.0/releasenotes/" actions="silent">
+        <patch type="complete" URL="http://127.0.0.1:8080/update/3/Firefox/25.0.1/20131112160018/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/firefox-26.0.complete.mar" hashFunction="SHA512"
+        hashValue="9392edd73b349ef42c34e47940bbba9fe70f35149fdbbc159d69c9990401a4bf8159d6205bb0bee964c5e2029712e63a86af1b4c71d7a3adeeccb7198f158e87" size="29569113"/>
+        <patch type="partial" URL="http://127.0.0.1:8080/update/3/Firefox/25.0.1/20131112160018/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/firefox-25.0.1-26.0.partial.mar" hashFunction="SHA512"
+        hashValue="9b5dd0cf0d77d8cd06593025a7b3a9ebea8b2a75d181b5fe0799a4982d5121a020f9642f2e388adc7e6949d2b9bed1730e11d4d32910db4cb874b61fcb0a98b4" size="14363209"/>
+    </update>
+</updates>

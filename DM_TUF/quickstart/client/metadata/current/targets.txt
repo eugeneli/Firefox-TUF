@@ -1,0 +1,399 @@
+{
+ "signatures": [
+  {
+   "keyid": "d7fb04875fb48481589d391180dd1d8a315f7821c8d7f0c19aa9fced75dcd666", 
+   "method": "RSASSA-PSS", 
+   "sig": "5a32678277fc118b12ec1554295dd53558be144f661cb59ec17d44ae7c839594c8bd6f30181a33f17d694e6c4671e0ec2a70aaf0c160b1f6a159ef20496cb62c978e2195afc8c4c4c2d8794c351ab45c06d2e390cecbfc240c5b904b644423b50a622039321b0b4b984fee6e45935ddc7cdaf097a894e684b5d5a3a620b3ef5073701f760a27e99cad9d4a6cf8fe9ca902b44715478ac5c137ddc3660753d492f6d2739f3d878a384f2b3ab9b1ce786c55e29fbb90a1d0f6f299fcd80f967bf09fe542c99a26cd326da230e8cbf61846478bcf3b195912b37aaed9bd0c511130bf04dff7a2f1d5ed8dc6ca2d00226c6bc21a4e66e62a17c6e6d80210734eef612eebb0a51b33157925995ace40dd71d2d74f8322261766c2c0c25747f0dbb22a05fe1ec625b60b2cea7f9acb412825e2e09ea634b2ed2f56b73a9009acecc6f0eede1f9258ba2f49a5cd65a7c0e170f72137bd7ebaa899a5c725c81a4b7e7ad2d76b9eee3ccf68dd09b39e19ede5e925ef59e9a7454ac10b523a2e847091efc7"
+  }
+ ], 
+ "signed": {
+  "_type": "Targets", 
+  "delegations": {
+   "keys": {
+    "660526bd5378e18b457063da7dcfe1e01d137e10c42c7eda6c50c5372f8b9bb8": {
+     "keytype": "rsa", 
+     "keyval": {
+      "private": "", 
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr3vnut2PutxoLh1Rh1JH\nQ0nA3caFSLye6xIETl/Wx6ZjilbYQ9BomVDVX//lwBYHz+DjQvn45tl2qf/X9L8y\nANpE3DnWu+1CB/y1T+2uMgYzxSIvhMChFysFCmW2hA4ng37F1EcAJaKEomG/IE67\nUc8RURbxZACFsiPiH67wxs268iqc7f5HAtsCWHScFkYUPIFWLcnyrM94bJh2bd7U\nlOUrvlLWhGqP6wMEMJAszUR7rPvPpyrpY2df6TmHoW6Ufjc6GYf6dMBrppweWjV5\nx1ibEFlpxkoQNH2Qu7neUZBdM6KwM/jaKjQ8KOuG7W/GIBtOV95GeqDQk6ro5FVC\nLwIDAQAB\n-----END PUBLIC KEY-----"
+     }
+    }
+   }, 
+   "roles": [
+    {
+     "keyids": [
+      "660526bd5378e18b457063da7dcfe1e01d137e10c42c7eda6c50c5372f8b9bb8"
+     ], 
+     "name": "targets/nightly", 
+     "paths": [
+      "pub/mozilla.org/firefox/releases"
+     ], 
+     "threshold": 1
+    }
+   ]
+  }, 
+  "expires": "2014-03-12 04:32:14 UTC", 
+  "targets": {
+   "pub/mozilla.org/firefox/releases/26.0b5/update/linux-x86_64/en-US/firefox-26.0b4-26.0b5.partial.mar": {
+    "hashes": {
+     "sha256": "751ae95b63bea08183bcd1bac55a9da080fbe67c128154fda2302af8f46d5039"
+    }, 
+    "length": 1903269
+   }, 
+   "pub/mozilla.org/firefox/releases/26.0b5/update/linux-x86_64/en-US/firefox-26.0b5.complete.mar": {
+    "hashes": {
+     "sha256": "fbadd9620b666e343496a33532bd050a0fdbbbc286bbe4f3f4981f8dcad31040"
+    }, 
+    "length": 29610348
+   }, 
+   "pub/mozilla.org/firefox/releases/26.0b5/update/linux-x86_64/en-US/update.xml": {
+    "hashes": {
+     "sha256": "a5e3f9d6aba977bcb1022845ef354f1156594be79ea7094cc966bb745cfbfe52"
+    }, 
+    "length": 952
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/firefox-24.0-25.0.1.partial.mar": {
+    "hashes": {
+     "sha256": "328af6cc5a3f3805dd13e22930ac18476b38fcfc5a0cf51a5a1540eb90dfeb6a"
+    }, 
+    "length": 23546819
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/firefox-25.0.1.complete.mar": {
+    "hashes": {
+     "sha256": "047965743d89b08c482a6441d6bd2b55bff5f423b98ae9086da569dfefa048d8"
+    }, 
+    "length": 45425773
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Darwin_x86_64-gcc3-u-i386-x86_64/en-US/release/Darwin 11.4.2/default/default/update.xml": {
+    "hashes": {
+     "sha256": "84d46b8266e5470d5519c4b0e262243da860789838d5e462404fc377e36d02cc"
+    }, 
+    "length": 1032
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 2.6.32-358.23.2.el6.x86_64 (GTK 2.18.9)/default/default/.DS_Store": {
+    "hashes": {
+     "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+    }, 
+    "length": 6148
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 2.6.32-358.23.2.el6.x86_64 (GTK 2.18.9)/default/default/._.DS_Store": {
+    "hashes": {
+     "sha256": "38d654fa8acd295b71815d94d09912682b8b58f9f5d6937b97d781f06905533e"
+    }, 
+    "length": 4096
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 2.6.32-358.23.2.el6.x86_64 (GTK 2.18.9)/default/default/firefox-24.0-25.0.partial.mar": {
+    "hashes": {
+     "sha256": "44142c9fbf0a3de826c037b36d2f2af216f8ef7546ba8943153f0f3dfb00ce53"
+    }, 
+    "length": 13778002
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 2.6.32-358.23.2.el6.x86_64 (GTK 2.18.9)/default/default/firefox-25.0.complete.mar": {
+    "hashes": {
+     "sha256": "df7e81da0f694e709005375b8685d5954433552a44a7cd8a692193ded272fa7a"
+    }, 
+    "length": 29023138
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 2.6.32-358.23.2.el6.x86_64 (GTK 2.18.9)/default/default/update.xml": {
+    "hashes": {
+     "sha256": "9c3f8e8053dda59628a1a603e990b4ef36252ae1e9483fd8b40ac6764ce5870f"
+    }, 
+    "length": 1034
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 2.6.32-358.23.2.el6.x86_64 (GTK 2.18.9)/default/default/update_lol.xml": {
+    "hashes": {
+     "sha256": "c64e66df8cda6921f90065ada9801646b28583d3f2ab0c4747c6a2787d0c0768"
+    }, 
+    "length": 811
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 2.6.32-431.el6.x86_64 (GTK 2.20.1)/default/default/.DS_Store": {
+    "hashes": {
+     "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+    }, 
+    "length": 6148
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 2.6.32-431.el6.x86_64 (GTK 2.20.1)/default/default/._.DS_Store": {
+    "hashes": {
+     "sha256": "38d654fa8acd295b71815d94d09912682b8b58f9f5d6937b97d781f06905533e"
+    }, 
+    "length": 4096
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 2.6.32-431.el6.x86_64 (GTK 2.20.1)/default/default/firefox-24.0-26.0.partial.mar": {
+    "hashes": {
+     "sha256": "29673d6788be273172fa3a55e71d146f755732ace9fb2824f79496fe6b2f4a94"
+    }, 
+    "length": 16836798
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 2.6.32-431.el6.x86_64 (GTK 2.20.1)/default/default/firefox-26.0.complete.mar": {
+    "hashes": {
+     "sha256": "7cfb0baef0f518e576cb3393856e7bfd39edc113ae0cffd9d6a28fb1cbf9f5ec"
+    }, 
+    "length": 29569113
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 2.6.32-431.el6.x86_64 (GTK 2.20.1)/default/default/update.xml": {
+    "hashes": {
+     "sha256": "5369fed49a6f820677feb3977dfb97548034ec0c138edc65f611e03e184b5d74"
+    }, 
+    "length": 1040
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 2.6.32-431.el6.x86_64 (GTK 2.20.1)/default/default/update.xml~": {
+    "hashes": {
+     "sha256": "9c3f8e8053dda59628a1a603e990b4ef36252ae1e9483fd8b40ac6764ce5870f"
+    }, 
+    "length": 1034
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 2.6.32-431.el6.x86_64 (GTK 2.20.1)/default/default/update_lol.xml": {
+    "hashes": {
+     "sha256": "c64e66df8cda6921f90065ada9801646b28583d3f2ab0c4747c6a2787d0c0768"
+    }, 
+    "length": 811
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/.DS_Store": {
+    "hashes": {
+     "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+    }, 
+    "length": 6148
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/._.DS_Store": {
+    "hashes": {
+     "sha256": "38d654fa8acd295b71815d94d09912682b8b58f9f5d6937b97d781f06905533e"
+    }, 
+    "length": 4096
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/firefox-24.0-25.0.partial.mar": {
+    "hashes": {
+     "sha256": "44142c9fbf0a3de826c037b36d2f2af216f8ef7546ba8943153f0f3dfb00ce53"
+    }, 
+    "length": 13778002
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/firefox-25.0.complete.mar": {
+    "hashes": {
+     "sha256": "df7e81da0f694e709005375b8685d5954433552a44a7cd8a692193ded272fa7a"
+    }, 
+    "length": 29023138
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/update.xml": {
+    "hashes": {
+     "sha256": "e5bc9acd93b2db3297170a561e1f36233ba00ff8ceefc3fd519684724d3018d2"
+    }, 
+    "length": 1015
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/update.xml~": {
+    "hashes": {
+     "sha256": "7548b9ac57d106d52ca8e1da6a3706b5330c6edf966f5aa8a5ce13a53b83ef4f"
+    }, 
+    "length": 1015
+   }, 
+   "update/3/Firefox/24.0/20130910160258/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/update_lol.xml": {
+    "hashes": {
+     "sha256": "c64e66df8cda6921f90065ada9801646b28583d3f2ab0c4747c6a2787d0c0768"
+    }, 
+    "length": 811
+   }, 
+   "update/3/Firefox/24.0/20130910160258/WINNT_x86-msvc/en-US/release/Windows_NT 5.1.3.0 (x86)/default/default/.DS_Store": {
+    "hashes": {
+     "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+    }, 
+    "length": 6148
+   }, 
+   "update/3/Firefox/24.0/20130910160258/WINNT_x86-msvc/en-US/release/Windows_NT 5.1.3.0 (x86)/default/default/._.DS_Store": {
+    "hashes": {
+     "sha256": "38d654fa8acd295b71815d94d09912682b8b58f9f5d6937b97d781f06905533e"
+    }, 
+    "length": 4096
+   }, 
+   "update/3/Firefox/24.0/20130910160258/WINNT_x86-msvc/en-US/release/Windows_NT 5.1.3.0 (x86)/default/default/firefox-24.0-26.0.partial.mar": {
+    "hashes": {
+     "sha256": "30f8cb09929cd84a372946c22659396abafa478067eef8fd028244ca8ae42bf5"
+    }, 
+    "length": 15479364
+   }, 
+   "update/3/Firefox/24.0/20130910160258/WINNT_x86-msvc/en-US/release/Windows_NT 5.1.3.0 (x86)/default/default/firefox-26.0.complete.mar": {
+    "hashes": {
+     "sha256": "5b9ab7135900bfbb53a1d645df9c7dbc4f161474f7bad372bf100fc40697c464"
+    }, 
+    "length": 29402842
+   }, 
+   "update/3/Firefox/24.0/20130910160258/WINNT_x86-msvc/en-US/release/Windows_NT 5.1.3.0 (x86)/default/default/update.xml": {
+    "hashes": {
+     "sha256": "56283f366cea21c90360b388b3dbffa4caab2088ac2a0466a81dd8174b68dd88"
+    }, 
+    "length": 1001
+   }, 
+   "update/3/Firefox/24.0/20130910160258/WINNT_x86-msvc/en-US/release/Windows_NT 5.1.3.0 (x86)/default/default/update_lol.xml": {
+    "hashes": {
+     "sha256": "c64e66df8cda6921f90065ada9801646b28583d3f2ab0c4747c6a2787d0c0768"
+    }, 
+    "length": 811
+   }, 
+   "update/3/Firefox/24.0/20130910160258/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/.DS_Store": {
+    "hashes": {
+     "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+    }, 
+    "length": 6148
+   }, 
+   "update/3/Firefox/24.0/20130910160258/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/._.DS_Store": {
+    "hashes": {
+     "sha256": "38d654fa8acd295b71815d94d09912682b8b58f9f5d6937b97d781f06905533e"
+    }, 
+    "length": 4096
+   }, 
+   "update/3/Firefox/24.0/20130910160258/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/firefox-24.0-25.0.partial.mar": {
+    "hashes": {
+     "sha256": "5615212e25037be0f4a7a3a1229ae94749964426ee4d0c6b25d1a3ecfa3557fc"
+    }, 
+    "length": 12524778
+   }, 
+   "update/3/Firefox/24.0/20130910160258/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/firefox-25.0.complete.mar": {
+    "hashes": {
+     "sha256": "11691ac6e9b3e0b1e4efc4b4764aa430f5f525a43bd2ad69599e617577763e3a"
+    }, 
+    "length": 28645293
+   }, 
+   "update/3/Firefox/24.0/20130910160258/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/update.xml": {
+    "hashes": {
+     "sha256": "a540556914bafa6550e6e5616690701fd5899f57d2c0d98663832b0dadf9014c"
+    }, 
+    "length": 985
+   }, 
+   "update/3/Firefox/24.0/20130910160258/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/update_lol.xml": {
+    "hashes": {
+     "sha256": "c64e66df8cda6921f90065ada9801646b28583d3f2ab0c4747c6a2787d0c0768"
+    }, 
+    "length": 811
+   }, 
+   "update/3/Firefox/25.0.1/20131112160018/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/firefox-25.0.1-26.0.partial.mar": {
+    "hashes": {
+     "sha256": "e90e8a86bd8d3202fb4c2410a6aa06e34ba970cc135f0cea9ae0b5c318431ec9"
+    }, 
+    "length": 14363209
+   }, 
+   "update/3/Firefox/25.0.1/20131112160018/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/firefox-26.0.complete.mar": {
+    "hashes": {
+     "sha256": "7cfb0baef0f518e576cb3393856e7bfd39edc113ae0cffd9d6a28fb1cbf9f5ec"
+    }, 
+    "length": 29569113
+   }, 
+   "update/3/Firefox/25.0.1/20131112160018/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/update.xml": {
+    "hashes": {
+     "sha256": "9bb0256764cbd88cda93097cb7ac1f16725724f5b4d7e32671524bdbdcbab6d1"
+    }, 
+    "length": 1037
+   }, 
+   "update/3/Firefox/25.0.1/20131112160018/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/.DS_Store": {
+    "hashes": {
+     "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+    }, 
+    "length": 6148
+   }, 
+   "update/3/Firefox/25.0.1/20131112160018/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/._.DS_Store": {
+    "hashes": {
+     "sha256": "38d654fa8acd295b71815d94d09912682b8b58f9f5d6937b97d781f06905533e"
+    }, 
+    "length": 4096
+   }, 
+   "update/3/Firefox/25.0.1/20131112160018/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/firefox-25.0.1-26.0.partial.mar": {
+    "hashes": {
+     "sha256": "9a814f02fcdf961646adcd777fd461ae24c0d0bb4c034b40448004cbc12c75f7"
+    }, 
+    "length": 13500699
+   }, 
+   "update/3/Firefox/25.0.1/20131112160018/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/firefox-26.0.complete.mar": {
+    "hashes": {
+     "sha256": "5b9ab7135900bfbb53a1d645df9c7dbc4f161474f7bad372bf100fc40697c464"
+    }, 
+    "length": 29402842
+   }, 
+   "update/3/Firefox/25.0.1/20131112160018/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/update.xml": {
+    "hashes": {
+     "sha256": "1e530362cbeaa7dbbfece9f7cf9148583b8e7fc16311538af5378f91fdcef4d7"
+    }, 
+    "length": 1013
+   }, 
+   "update/3/Firefox/25.0.1/20131112160018/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/update.xml~": {
+    "hashes": {
+     "sha256": "ba51a6fc56c1545a7e99912d49a9743db192b80aaa22ec5e15eb0c838738b800"
+    }, 
+    "length": 811
+   }, 
+   "update/3/Firefox/25.0.1/20131112160018/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/update_lol.xml": {
+    "hashes": {
+     "sha256": "c64e66df8cda6921f90065ada9801646b28583d3f2ab0c4747c6a2787d0c0768"
+    }, 
+    "length": 811
+   }, 
+   "update/3/Firefox/25.0/20131025151332/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/firefox-25.0-25.0.1.partial.mar": {
+    "hashes": {
+     "sha256": "66e3fc357c94d9a6c82ada16f2e26ea9484a04151c2c5951a8e6469b69c83999"
+    }, 
+    "length": 1997209
+   }, 
+   "update/3/Firefox/25.0/20131025151332/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/firefox-25.0.1.complete.mar": {
+    "hashes": {
+     "sha256": "474f4d8baa15cf8470443d6e940297864a3d6f0d21eeef6dc887e1ff2b0d2dce"
+    }, 
+    "length": 29040235
+   }, 
+   "update/3/Firefox/25.0/20131025151332/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/update.xml": {
+    "hashes": {
+     "sha256": "bde399be684dc135ca72db318af5a5bccd7fd05e7777400b6d667cc60c8e894e"
+    }, 
+    "length": 1042
+   }, 
+   "update/3/Firefox/25.0/20131025151332/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/update.xml~": {
+    "hashes": {
+     "sha256": "bfe1e3a4f0107efdc7c661255369affe9305e5229124d460b7128fed04fcf7e4"
+    }, 
+    "length": 1040
+   }, 
+   "update/3/Firefox/25.0/20131025151332/Linux_x86_64-gcc3/en-US/release/Linux 3.8.0-33-generic (GTK 2.24.17)/default/default/update_lol.xml": {
+    "hashes": {
+     "sha256": "c64e66df8cda6921f90065ada9801646b28583d3f2ab0c4747c6a2787d0c0768"
+    }, 
+    "length": 811
+   }, 
+   "update/3/Firefox/25.0/20131025151332/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/.DS_Store": {
+    "hashes": {
+     "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+    }, 
+    "length": 6148
+   }, 
+   "update/3/Firefox/25.0/20131025151332/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/._.DS_Store": {
+    "hashes": {
+     "sha256": "38d654fa8acd295b71815d94d09912682b8b58f9f5d6937b97d781f06905533e"
+    }, 
+    "length": 4096
+   }, 
+   "update/3/Firefox/25.0/20131025151332/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/firefox-25.0-25.0.1.partial.mar": {
+    "hashes": {
+     "sha256": "619bef91bdca54548de310554986a89062af8fb4002e11113d9de4549280f34e"
+    }, 
+    "length": 3223385
+   }, 
+   "update/3/Firefox/25.0/20131025151332/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/firefox-25.0.1.complete.mar": {
+    "hashes": {
+     "sha256": "83472f91016ada6c05d600d99f8034bdf0c279556d7d4143439b2b4bfefadbfc"
+    }, 
+    "length": 28637723
+   }, 
+   "update/3/Firefox/25.0/20131025151332/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/update.xml": {
+    "hashes": {
+     "sha256": "63c31fd6d6137bfad69d976fc7ad2ae74db2624897af382997e176eba928a463"
+    }, 
+    "length": 1012
+   }, 
+   "update/3/Firefox/25.0/20131025151332/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/update.xml~": {
+    "hashes": {
+     "sha256": "ba51a6fc56c1545a7e99912d49a9743db192b80aaa22ec5e15eb0c838738b800"
+    }, 
+    "length": 811
+   }, 
+   "update/3/Firefox/25.0/20131025151332/WINNT_x86-msvc/en-US/release/Windows_NT 6.1.1.0 (x64)/default/default/update_lol.xml": {
+    "hashes": {
+     "sha256": "c64e66df8cda6921f90065ada9801646b28583d3f2ab0c4747c6a2787d0c0768"
+    }, 
+    "length": 811
+   }
+  }, 
+  "version": 1
+ }
+}
